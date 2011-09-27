@@ -1,0 +1,139 @@
+<!doctype html> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+ 
+  <title>First World Problems</title> 
+  <meta name="description" content="First world problems"> 
+  <meta name="author" content="Davewasthere"> 
+
+  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+  <style type="text/css">
+  
+  html,body
+  {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+#container
+{
+    min-height: 100%;
+    background: #fff url(http://i.imgur.com/QNTle.jpg) no-repeat bottom right;
+}
+
+#main
+{
+    top: 30%;
+    position:absolute;
+    width: 100%;
+}
+
+#problems
+{
+    color: #339;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding-right: 350px;
+    padding-left: 20px;
+}
+
+#problems > div
+{
+    display: none;
+}
+
+#problems > div.current
+{
+    display: block;
+}
+  
+  </style>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head> 
+ 
+<body> 
+ 
+
+ <div id="emo-kid"></div>
+
+  <div id="container"> 
+    <header> 
+ 
+    </header> 
+    <div id="main"> 
+
+        <div id="problems"></div>
+
+    </div> 
+    <footer> 
+ 
+    </footer> 
+  </div> <!-- eo #container --> 
+ 
+ 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script> 
+
+<script language="javascript" type="text/javascript">
+
+    var after = '';
+
+    $(function () {
+        $.getJSON('http://www.reddit.com/r/firstworldproblems.json?limit=10&jsonp=?', null, loadPosts);
+        setTimeout(showNextPost, 1 * 8000);
+    });
+
+    function loadPosts(data) {
+
+        after = data.data.after;
+
+        $.each(data.data.children.slice(0), function (i, post) {
+            $('#problems').append('<div>' + post.data.title + '</div>');
+        });
+
+        if ($('#problems > div.current').length == 0) {
+            var el = $('#problems > div:first').addClass('current');
+        }
+
+    }
+
+    function showNextPost() {
+
+        var el = $('#problems > div.current');
+        var index = $('#problems > div').index(el);
+        var length = $('#problems > div').length;
+
+        if (index > length - 4) {
+            $.getJSON('http://www.reddit.com/r/firstworldproblems.json?limit=10&after=' +  after + '&jsonp=?', null, loadPosts);
+        }
+
+        if (index < length - 1) {
+            $('#problems > div.current').removeClass('current').next().addClass('current');
+        }
+
+        setTimeout(showNextPost, 1 * 6000);
+    }
+
+</script>
+  
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-505897-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+
+</body> 
+</html>
