@@ -66,13 +66,18 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
-
+/*
 body { font-family: Georgia, Serif; background-color: #fffacd; font-size: 16px;}
 header { height: 100px; background: url(images/davewasthere.gif) no-repeat left; }
 #container {max-width:800px; margin: 0 auto;text-align:left;}
 .postdate {float:right; color: #999;}
+#main {padding: 1em;}
+*/
 
+body
+{
 
+}
 
 
 
