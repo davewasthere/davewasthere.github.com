@@ -76,7 +76,8 @@ header { height: 100px; background: url(images/davewasthere.gif) no-repeat left;
 
 body
 {
-
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 

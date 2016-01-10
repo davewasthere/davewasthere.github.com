@@ -1,109 +1,57 @@
 ---
-layout: null
+layout: default
 ---
-<!doctype html> 
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]--> 
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]--> 
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]--> 
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]--> 
-<head> 
-  <meta charset="utf-8"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
- 
-  <title>Dave Was There!</title> 
+<h2>Kia ora!</h2>
+<p>
+    My name is David Beer. I'm a kiwi (New Zealander to foreign folk) who is on a bit of a tiki-tour/walkabout at the moment. I left
+    New Zealand around the middle of 1999 and decided to head off exploring for six
+    months. Haven&#39;t finished yet.
+</p>
 
-  <meta name="google-site-verification" content="-94H7Y_acKRd6JVIcX1jQAXsVdhMiGvxjvkSsvH-pOc" />
+<h2>The posts</h2>
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <span>{{ post.date | date: "%d %B %Y" }}</span> <a href="{{ post.url }}/">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
 
-    <meta name="description" content="Dave Beer's travel site. A few words on where he has been and what he has done." />
-    <meta name="keywords" content="david beer, dave beer, dave was there, travel, new zealand, kiwi" />
-    <meta name="author" content="Dave Beer"> 
+<h2>The travelogues</h2>
+<p>This here is a listing of my <b>'dave was there'</b> travelogue updates in reverse chronological order.</p>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1"> 
+<ul>
 
-    <link rel="stylesheet" href="/davewasthere.css" />
- 
-</head> 
- 
-<body> 
- 
-  <div id="container"> 
-    <header> 
 
-    </header> 
-    <div id="main" role="main"> 
+    <li>no. 24 - <a href="travel/number024-things-are-always-changing.html">12 Sep 2011</a> - Things are always changing</li>
+    <li>no. 23 - <a href="travel/number023-so-what-now-for-dave.html">01 Jan 2011</a> - So. What now for Dave?</li>
+    <li>no. 22 - <a href="travel/number022-another-ending.html">01 February 2010</a> - Another Ending</li>
+    <li>no. 21 - <a href="travel/number021-one-last-try.html">01 July 2009</a> - One last try</li>
+    <li>no. 20 - <a href="travel/number020-where-kiwi-dave-becomes-a-brit.html">01 January 2009</a> - Kiwi Dave becomes a Brit!</li>
+    <li>no. 19 - <a href="travel/number019-best-summer-ever.html">01 March 2008</a> - Best Summer Ever!</li>
+    <li>no. 18 - <a href="travel/number018-and-then-its-2007.html">01 January 2008</a> - And then it's 2007</li>
+    <li>no. 17 - <a href="travel/number017-2006-in-brief.html">01 January 2007</a> - 2006 in brief</li>
+    <li>no. 16 - <a href="travel/number016.html">26 december 2006</a> - 2005 in review (only a year late)</li>
+    <li>no. 15 - <a href="travel/number015.html">23 november 2004</a> - the second half of 2004 (almost)</li>
+    <li>no. 14 - <a href="travel/number014.html">03 november 2004</a> - Crikey, what delicious food! (and what a bloody long time between updates)</li>
+    <li>no. 13 - <a href="travel/number013.html">06 november 2003</a> - Bad Boy Beer?</li>
+    <li>no. 12 - <a href="travel/number012.html">14 october 2002</a> - Abducted by aliens in belgium</li>
+    <li>no. 11 - <a href="travel/number011.html">19 march 2002</a> - Busy as a very busy thing</li>
+    <li>no. 10 - <a href="travel/number010.html">25 june 2001</a> - Back to dubai so soon?</li>
+    <li>no. 9 - <a href="travel/number009.html">21 march 2001</a> - Back in the UK (first travelogue for 2001)</li>
+</ul>
 
-		<h2>Kia ora!</h2>
-		<p>My name is David Beer. I'm a kiwi (New Zealander to foreign folk) who is on a bit of a tiki-tour/walkabout at the moment. I left 
-            New Zealand around the middle of 1999 and decided to head off exploring for six 
-            months. Haven&#39;t finished yet.</p>
-		<h2>What's New</h2>
-        <p>Finally caught up on the last few years of travels. I'd written them ages ago, but was hoping on updating the site 
-            design significantly. Unfortunately my uber-design-skills failed to materialise, so I managed to procrastinate until it really got beyond a joke.</p>
-        <p>Was also playing around with Wordpress a bit, but honestly it's more hassle than it's worth for this site. I'm happy enough hand cranking out some HTML.</p>
-        <p>So design be damned. This'll do!</p>
-            
-		<h2>The travelogues</h2>
-		<p>This here is a listing of my <b>'dave was there'</b> travelogue updates in reverse chronological order.</p>
-		
-		<ul>
-            {% for post in site.posts %}
-            <li>
-                <span>{{ post.date | date: "%d %B %Y" }}</span> <a href="{{ post.url }}/">{{ post.title }}</a>
-            </li>
-            {% endfor %}
+<p>As well as the beernet travelogues that were previous hosted on <strong>beer.net.nz.</strong> I let that domain lapse&nbsp;a while ago due to the amount of spam it received... Now some guy from belarus has registered it and redirects all traffic to some porn site which tries to inject viruses into your machine... (be warned!)</p>
 
-            <li>no. 24 - <a href="travel/number024-things-are-always-changing.html">12 Sep 2011</a> - Things are always changing</li>
-            <li>no. 23 - <a href="travel/number023-so-what-now-for-dave.html">01 Jan 2011</a> - So. What now for Dave?</li>
-            <li>no. 22 - <a href="travel/number022-another-ending.html">01 February 2010</a> - Another Ending</li>
-            <li>no. 21 - <a href="travel/number021-one-last-try.html">01 July 2009</a> - One last try</li>
-            <li>no. 20 - <a href="travel/number020-where-kiwi-dave-becomes-a-brit.html">01 January 2009</a> - Kiwi Dave becomes a Brit!</li>
-            <li>no. 19 - <a href="travel/number019-best-summer-ever.html">01 March 2008</a> - Best Summer Ever!</li>
-            <li>no. 18 - <a href="travel/number018-and-then-its-2007.html">01 January 2008</a> - And then it's 2007</li>
-			<li>no. 17 - <a href="travel/number017-2006-in-brief.html">01 January 2007</a> - 2006 in brief</li>
-            <li>no. 16 - <a href="travel/number016.html">26 december 2006</a> - 2005 in review (only a year late)</li>
-			<li>no. 15 - <a href="travel/number015.html">23 november 2004</a> - the second half of 2004 (almost)</li>
-			<li>no. 14 - <a href="travel/number014.html">03 november 2004</a> - Crikey, what delicious food! (and what a bloody long time between updates)</li>
-			<li>no. 13 - <a href="travel/number013.html">06 november 2003</a> - Bad Boy Beer?</li>
-			<li>no. 12 - <a href="travel/number012.html">14 october 2002</a> - Abducted by aliens in belgium</li>
-			<li>no. 11 - <a href="travel/number011.html">19 march 2002</a> - Busy as a very busy thing</li>
-			<li>no. 10 - <a href="travel/number010.html">25 june 2001</a> - Back to dubai so soon?</li>
-			<li>no. 9 - <a href="travel/number009.html">21 march 2001</a> - Back in the UK (first travelogue for 2001)</li>
-		</ul>
+<ul>
+    <li>no. 8 - <a href="travel/number008.html">15 july 2000</a> - cars / new york / dublin and the project</li>
+    <li>no. 7 - <a href="travel/number007.html">10 february 2000</a> - new zealand trip</li>
+    <li>no. 6 - <a href="travel/number006.html">11 december 1999</a> - dave in dubai</li>
+    <li>no. 5 - <a href="travel/number005.html">26 september 1999</a> - leaving so soon?</li>
+    <li>no. 4 - <a href="travel/number004.html">30 july 1999</a> - settled in the uk</li>
+    <li>no. 3 - <a href="travel/number003.html">18 june 1999</a> - arrived in london</li>
+    <li>no. 2 - <a href="travel/number002.html">7 june 1999</a> - made it to moscow on my own</li>
+    <li>no. 1 - <a href="travel/number001.html">3 june 1999</a> - after being detained on the russian border</li>
+</ul>
 
-		<p>As well as the beernet travelogues that were previous hosted on <strong>beer.net.nz.</strong> I let that domain lapse&nbsp;a while ago due to the amount of spam it received... Now some guy from belarus has registered it and redirects all traffic to some porn site which tries to inject viruses into your machine... (be warned!)</p>
-		
-		<ul>
-			<li>no. 8 - <a href="travel/number008.html">15 july 2000</a> - cars / new york / dublin and the project</li>
-			<li>no. 7 - <a href="travel/number007.html">10 february 2000</a> - new zealand trip</li>
-			<li>no. 6 - <a href="travel/number006.html">11 december 1999</a> - dave in dubai</li>
-			<li>no. 5 - <a href="travel/number005.html">26 september 1999</a> - leaving so soon?</li>
-			<li>no. 4 - <a href="travel/number004.html">30 july 1999</a> - settled in the uk</li>
-			<li>no. 3 - <a href="travel/number003.html">18 june 1999</a> - arrived in london</li>
-			<li>no. 2 - <a href="travel/number002.html">7 june 1999</a> - made it to moscow on my own</li>
-			<li>no. 1 - <a href="travel/number001.html">3 june 1999</a> - after being detained on the russian border</li>
-		</ul>
- 
-    </div> 
-    <footer> 
- 
-    </footer> 
-  </div> <!--! end of #container --> 
- 
- 
-<script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-505897-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-</script>
- 
-  
-</body> 
-</html> 
+       
