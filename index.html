@@ -5,14 +5,14 @@ layout: default
 <p>
     My name is David Beer. I'm a kiwi (New Zealander to foreign folk) who is on a bit of a tiki-tour/walkabout at the moment. I left
     New Zealand around the middle of 1999 and decided to head off exploring for six
-    months. Haven&#39;t finished yet.
+    months. Haven't quite finished yet.
 </p>
 
 <h2>The posts</h2>
 <ul>
     {% for post in site.posts %}
     <li>
-        <span>{{ post.date | date: "%d %B %Y" }}</span> <a href="{{ post.url }}/">{{ post.title }}</a>
+        <span>{{ post.date | date: "%d %b %Y" }}</span> - <a href="{{ post.url }}/">{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
@@ -39,11 +39,6 @@ layout: default
     <li>no. 11 - <a href="travel/number011.html">19 march 2002</a> - Busy as a very busy thing</li>
     <li>no. 10 - <a href="travel/number010.html">25 june 2001</a> - Back to dubai so soon?</li>
     <li>no. 9 - <a href="travel/number009.html">21 march 2001</a> - Back in the UK (first travelogue for 2001)</li>
-</ul>
-
-<p>As well as the beernet travelogues that were previous hosted on <strong>beer.net.nz.</strong> I let that domain lapse&nbsp;a while ago due to the amount of spam it received... Now some guy from belarus has registered it and redirects all traffic to some porn site which tries to inject viruses into your machine... (be warned!)</p>
-
-<ul>
     <li>no. 8 - <a href="travel/number008.html">15 july 2000</a> - cars / new york / dublin and the project</li>
     <li>no. 7 - <a href="travel/number007.html">10 february 2000</a> - new zealand trip</li>
     <li>no. 6 - <a href="travel/number006.html">11 december 1999</a> - dave in dubai</li>

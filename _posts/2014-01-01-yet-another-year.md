@@ -3,4 +3,24 @@ layout: default
 title: Yet another year. A look back at 2013
 published: false
 ---
-#2013
+#Yet another year. A look back at 2013
+
+New Zealand
+
+Roydon Downs
+
+Tauranga
+
+Melbourne
+
+Dubai
+
+United States
+
+Germany
+
+Keil Woche
+
+
+
+Australia
