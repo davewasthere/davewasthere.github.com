@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Regained my Mojo
+published: false
 ---
 
 #Lost my mojo
@@ -29,7 +30,7 @@ Spent some time with Hari, Todd and the girls. Helped Todd invesigate a truck ro
 
 Sadly, Nana passed away, not quite making it to Christmas. It's kind of bitter-sweet to see all the family for occasions like a funeral. But it was one way to see people that I don't ordinarily get a chance to catch up with.
 
-Spent a little bit of time in Welly,
+Spent a little bit of time in Welly, and caught up with an old DCSB Colleague
 
 Mangawhai Heads
 
