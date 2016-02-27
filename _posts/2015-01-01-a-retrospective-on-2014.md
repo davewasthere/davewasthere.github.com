@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A retrospective on 2014
 published: false
 ---

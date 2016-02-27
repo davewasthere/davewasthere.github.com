@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Yet another year. A look back at 2013
 published: false
 ---

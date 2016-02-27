@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Well, 2015 was an interesting year
 published: false
 ---
