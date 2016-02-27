@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lost my Mojo
-
 ---
 
 The past year had been a bit of a bummer. Had some highs, but also some epic lows as well. I really felt like I'd lost my way, or lost my mojo. Now that's not normal for me, so it was time for some travel-therapy since I'm not so keen on shopping. The light at the end of a very long and very dark tunnel, was a dive trip to Belize with Crystal.
