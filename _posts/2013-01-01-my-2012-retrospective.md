@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My 2012 retrospective
-published: false
+published: true
 ---
 #My 2012 Retrospective
 
