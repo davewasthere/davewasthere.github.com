@@ -6,7 +6,7 @@ published: true
 
 The past year had been a bit of a bummer. Had some highs, but also some epic lows as well. I really felt like I'd lost my way, or lost my mojo. Now that's not normal for me, so it was time for some travel-therapy since I'm not so keen on shopping. The light at the end of a very long and very dark tunnel, was a dive trip to Belize with Crystal.
 
-##La Isla Bonita
+## La Isla Bonita
 
 I'd met Crystal at Mike & Brenda's wedding back in 2008. We'd spent a couple of weeks after the wedding travelling around NZ, diving at Tutukaka & just generally seeing the sights up and down the country. I knew we made good travel buddies, so when she suggested a dive trip to Belize I was well up for it.
 
@@ -18,11 +18,11 @@ Arriving at Grand Caribe the apartment was amazing. I'm normally quite a budget 
 
 Basically, we spend two weeks just swimming, eating, drinking, diving and wandering around the island. It was a much needed period of bliss. Met some very cool people throughout and I've got nothing but fond memories of the trip. My only regret is the weather on the mainland was so horrible that we elected not to go exploring some of the Mayan ruins. That's something I would have been very keen on!
 
-##Dave's Mid-life Crisis Tour
+## Dave's Mid-life Crisis Tour
 
 My usual summer-down-under turned into something else this year. For once, I've got absolutely no plans for the future. Last year had sort of shaken them up a little and I was probably still licking my wounds a little. So I've stuck to my tried and tested escape to the Southern Hemisphere and we'll see what opportunities life brings. Something always happens along when you need it to. My intention was to spend this year travelling, maybe. Actually, I had no idea. But I was aware I am about to turn 40, so wanted to do something...  I had a few ideas, but nothing concrete.
 
-###Part Un - New Zealand
+### Part Un - New Zealand
 
 Being back home was wonderful. Spent some time at Mum's getting a little bit crafty. Actually got into a little bit of sewing, making badges on the overlocker. I was particularly proud of my kiwi roundell I made for my man-bag.
 
@@ -34,7 +34,7 @@ Spent a little bit of time in Welly, and caught up with an old DCSB Colleague. A
 
 <img src="/travel/images/beau.jpg" /><br/>*Great to see Beau, Dad's old racehorse, still going strong*
 
-###Part Deux - Australia
+### Part Deux - Australia
 
 Went to Sydney to stay with Pia for a couple of weeks before heading to Thailand. I'd met her and her Mum at Mount Maungonui when I was passing through and we'd met up a couple of times, but she'd since moved to Aussie with work and had invited me to go visit.
 
@@ -42,7 +42,7 @@ While I was in town, I went and chatted to a local startup involved in the ticke
 
 I really enjoyed Sydney and while I preferred Melbourne, I could see myself living here. But I can probably see myself living everywhere.
 
-###Part Trois - Thailand
+### Part Trois - Thailand
 
 After Sydney though was Thailand... and wow! Bangkok was busy. I'm not sure I was ready for it to be honest. Such an assault on the senses.
 
@@ -60,7 +60,7 @@ Caught the ferry back to Koh Samui and didn't recognise the island. I wasn't dro
 
 My bike and helmet were just where I left them. Why was I worried? Quickly blasted around the island to drop off my bike, then caught one of the shared taxi's back to my hotel near the airport. Bugger the bus, I'm flying back to Bangkok.
 
-###Part Quatre - Vietnam
+### Part Quatre - Vietnam
 
 On arrival into Hanoi, I'd forgotten to get money or organise photos for the visa on arrival. I'd paid for one of those online visas, but completely ignored the other requirements of having two photos and a USD$45 visa fee. But got it sorted okay. Just took a while. Then, once I got through customs, there wasn't anybody waiting for me like I expected. The hotel were meant to send a car. But a quick call sorted that out, and in a short time I was headed to Hanoi to meet up with my travelling companions.
 
