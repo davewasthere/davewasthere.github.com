@@ -20,7 +20,7 @@ Basically, we spend two weeks just swimming, eating, drinking, diving and wander
 
 ## Dave's Mid-life Crisis Tour
 
-My usual summer-down-under turned into something else this year. For once, I've got absolutely no plans for the future. Last year had sort of shaken them up a little and I was probably still licking my wounds a little. So I've stuck to my tried and tested escape to the Southern Hemisphere and we'll see what opportunities life brings. Something always happens along when you need it to. My intention was to spend this year travelling, maybe. Actually, I had no idea. But I was aware I am about to turn 40, so wanted to do something...  I had a few ideas, but nothing concrete.
+My usual summer-down-under turned into something else this year. For once, I've got absolutely no plans for the future. Last year had sort of shaken them up a little and I was probably still licking my wounds a bit. So I've stuck to my tried and tested escape to the Southern Hemisphere and we'll see what opportunities life brings. Something always happens along when you need it to. My intention was to spend this year travelling, maybe. Actually, I had no idea. But I was aware I am about to turn 40, so wanted to do something...  I had a few ideas, but nothing concrete.
 
 ### Part Un - New Zealand
 
@@ -78,9 +78,9 @@ Quite lucky really. Considering how crazy the bus and truck drivers are. We got 
 
 Sa Pa and the surrounds were just gorgeous. I so want to go back! And the ride back to Hanoi was probably the best day of my life. Only slightly ruined by the fact that I couldn't find a stream far enough away from a village to be unpolluted. I really wanted a swim, but it just wasn't happening.
 
-After returning to Hanoi, I exchanged my rather broken bike for something not quite so broken in order to ride to Halong Bay.. Unfortunately I'd managed to contract food poisoning in Hanoi too, so really wasn't feeling the best. I'd lagged behind the boys quite a lot and took a break to try and recover, but after having some more Pho, I prompted went to the curb and started throwing up. I really didn't want to be on a bike, but had to push on.
+After returning to Hanoi, I exchanged my rather broken bike for something not quite so broken in order to ride to Halong Bay.. Unfortunately I'd managed to contract food poisoning in Hanoi too, so really wasn't feeling the best. I'd lagged behind the boys quite a lot and took a break to try and recover, but after having some more Pho, I promptly went to the curb and started throwing up. I really didn't want to be on a bike, but had to push on.
 
-D came back to escort me once I'd almost reached Halong bay. I was rather grateful to get into bed and made a quick recovery over the next day or so. The three of us rented a boat to do the typical tourist cruising. I wasn't overly fussed about Halong bay really. It was nice, but more polluted than I liked and doing a typical tourist circuit doesn't really interest me.
+D came back to escort me once I'd almost reached Halong bay. I was rather grateful to get into bed and made a quick recovery over the next day or so. The three of us rented a boat to do the typical tourist cruising. I wasn't overly fussed about Halong bay though. It was nice, but more polluted than I liked and doing a typical tourist circuit doesn't really interest me.
 
 To get away from the not so pleasant bits, we ended up finding another hotel <a rel="nofollow" href="https://goo.gl/maps/G3MxdaBTYuM2">Viethouse Lodge</a> on Tuan Chau, a nearby island. This island was so cool! There were tons of construction projects that look like they were abandoned. It was a big boys playground! We made friends with the Aussie/German/Vietnamese girl who ran the hotel with her parents and had the most amazing Chinese dinner. Also went exploring afterwards in an abandoned rotunda. I was sad to leave Viethouse, but we were headed southwards to tick off a few more places on our list.
 
@@ -91,6 +91,6 @@ I was still feeling really rough after my food poisoning, so ended up flying bac
 <img src="/travel/images/bangkok-river.jpg">  
 *My view from the Chatrium. Very relaxing watching the boats go by!*
 
-After a few days of swanning around in luxury, I went back to some rather more modest digs in town. While there, I met the [most amazing family](http://www.forbes.com/hsbcpersonaleconomy/global-classrooms.html). Annie taught me how to do the egg-beater kick in the pool (a water polo thing). They were travelling for a year with kids, having the most amazing time!
+After a few days of swanning around in luxury, I went back to some rather more modest digs in town. While there, I met the [most incredible family](http://www.forbes.com/hsbcpersonaleconomy/global-classrooms.html). Annie taught me how to do the egg-beater kick in the pool (a water polo thing). They were travelling for a year with kids, having the most amazing time!
 
 But all too soon it was time to head back to Europe. I had a busy year with Stag do's, Weddings, another bike trip, work for the London Olympics, and another Winter Avoidance tour to plan.
