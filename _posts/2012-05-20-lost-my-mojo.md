@@ -32,7 +32,8 @@ Sadly, Nana passed away, not quite making it to Christmas. It's kind of bitter-s
 
 Spent a little bit of time in Welly, and caught up with an old DCSB Colleague. All the Brothers and sisters headed up to Mangawhai Heads with Dad & Meldy. We had a fun day canoeing, swimming, eating and just mucking about on the beach.
 
-<img src="/travel/images/beau.jpg" /><br/>*Great to see Beau, Dad's old racehorse, still going strong*
+<img src="/travel/images/beau.jpg" />  
+*Great to see Beau, Dad's old racehorse, still going strong*
 
 ### Part Deux - Australia
 
@@ -46,7 +47,10 @@ I really enjoyed Sydney and while I preferred Melbourne, I could see myself livi
 
 After Sydney though was Thailand... and wow! Bangkok was busy. I'm not sure I was ready for it to be honest. Such an assault on the senses.
 
-Thailand was just a temporary stop. I'd been able to change my flights so I stopped over here, but it was just so I could get to Vietnam. Fortunately, I did have a couple of weeks to check the place out. But after a couple of days, I'd had enough of Bangkok and wanted some beach action.
+Thailand was just a temporary stop. I'd been able to change my flights so I stopped over here, but it was just so I could get to Vietnam. Fortunately, I did have a couple of weeks to check the place out. But after a couple of days, I'd had enough of Bangkok and wanted some beach action, as well as some of my favourite dish "Ka na moo grob" (crispy pork with chinese brocolli).
+
+<img src="/travel/images/kanamoogrob.jpg">  
+*I'd probably live on just this dish if I could*
 
 I'd been recommended the bus down to Koh Samui, so I ended up buying a slightly overpriced ticket and heading south. The bus was possibly the worst journey I've ever made, and that's saying something. Avoid at all costs! Definitely better to fly or catch the train.
 
@@ -84,7 +88,8 @@ We all flew down to Da Nang. Another awesome hotel, we organised bikes so we cou
 
 I was still feeling really rough after my food poisoning, so ended up flying back to Thailand earlier than I'd planned in order to get a full medical check-up. Was worried that I'd picked up some sort of parasite or something, but no. Just regular food poisoning. While in Bangkok, I relaxed my 'on-a-budget' rule and splashed out for something five star, quiet, relaxing and away from the seedy part of town. The Chatrium Hotel Riverside was just the ticket. I spent a few days doing nothing more than swimming, reading and relaxing. Was lovely!
 
-<img src="/travel/images/bangkok-river.jpg">
+<img src="/travel/images/bangkok-river.jpg">  
+*My view from the Chatrium. Very relaxing watching the boats go by!*
 
 After a few days of swanning around in luxury, I went back to some rather more modest digs in town. While there, I met the [most amazing family](http://www.forbes.com/hsbcpersonaleconomy/global-classrooms.html). Annie taught me how to do the egg-beater kick in the pool (a water polo thing). They were travelling for a year with kids, having the most amazing time!
 
