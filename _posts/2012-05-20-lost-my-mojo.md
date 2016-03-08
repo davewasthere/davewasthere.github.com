@@ -72,6 +72,9 @@ I'd met D in Auckland. We'd chatted a bit about an upcoming Europe bike trip and
 
 We rode out of Hanoi towards Sa Pa. The scenery was amazing and I was gutted that the only camera I had, was my shitty little 2 Megapixel phone from 2006. I had a nice portable Sony Camera, but that gave up the ghost literally as soon as I landed. It wasn't until I got back to Hanoi that I bit the bullet and bought a new Canon Powershot. Just wish I'd done it before Sa Pa.
 
+<img src="/travel/images/vietnam-sapa.jpg">  
+*My poor little phone couldn't do Sa Pa's scenery justice. It was gorgeous!*
+
 Both D and I had some small offs. D's was probably a combination of jetlag and looking back checking on Rodney. Mine was not looking at the surface of the road carefully enough and running over a strip of Diesel. I pretty much totalled my bike though. But all-up was only $400 worth to replace. D's repair bill was a lot less, as just a few hundred meters from where he crashed, was a little motorbike mechanic. Who had all the spares needed to get us back on the road again.
 
 Quite lucky really. Considering how crazy the bus and truck drivers are. We got away very lightly. Accomodation was pretty reasonable too. Mostly we spent about $5/night for digs. And food was cheap and plentiful. I really enjoyed the beef or chicken pho that was just everywhere. Makes a great breakfast!
@@ -82,9 +85,15 @@ After returning to Hanoi, I exchanged my rather broken bike for something not qu
 
 D came back to escort me once I'd almost reached Halong bay. I was rather grateful to get into bed and made a quick recovery over the next day or so. The three of us rented a boat to do the typical tourist cruising. I wasn't overly fussed about Halong bay though. It was nice, but more polluted than I liked and doing a typical tourist circuit doesn't really interest me.
 
+<img src="/travel/images/vietnam-cave.jpg">  
+*Cave mouth at one of the tourist spots at Halong Bay*
+
 To get away from the not so pleasant bits, we ended up finding another hotel <a rel="nofollow" href="https://goo.gl/maps/G3MxdaBTYuM2">Viethouse Lodge</a> on Tuan Chau, a nearby island. This island was so cool! There were tons of construction projects that look like they were abandoned. It was a big boys playground! We made friends with the Aussie/German/Vietnamese girl who ran the hotel with her parents and had the most amazing Chinese dinner. Also went exploring afterwards in an abandoned rotunda. I was sad to leave Viethouse, but we were headed southwards to tick off a few more places on our list.
 
 We all flew down to Da Nang. Another awesome hotel, we organised bikes so we could tour up to Hue and down to Hoi An. Met some students in Da Nang as well, who ended up showing us around all of the local sites, which was a lot of fun. Rodney headed back to Hanoi, while D & I headed down to Na Trang by train, then to Ho Chi Minh City a few days later.
+
+<img src="/travel/images/vietnam-selfie.jpg">  
+*Obligatory selfie while riding the coastal road north of Da Nang*
 
 I was still feeling really rough after my food poisoning, so ended up flying back to Thailand earlier than I'd planned in order to get a full medical check-up. Was worried that I'd picked up some sort of parasite or something, but no. Just regular food poisoning. While in Bangkok, I relaxed my 'on-a-budget' rule and splashed out for something five star, quiet, relaxing and away from the seedy part of town. The Chatrium Hotel Riverside was just the ticket. I spent a few days doing nothing more than swimming, reading and relaxing. Was lovely!
 
