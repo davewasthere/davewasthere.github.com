@@ -78,15 +78,17 @@ body
 {
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    background-color: #fffacd;
     padding: 0 1em;
 }
 
-body > p > img {
+img {
     max-width: 100%;
 }
 
-
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
 
 
 

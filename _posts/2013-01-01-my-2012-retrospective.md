@@ -1,54 +1,25 @@
 ---
 layout: post
-title: My 2012 retrospective
+title: 2012 - The latter half
 published: false
 ---
-#My 2012 Retrospective
+# 2012 - The latter half
 
-##New Zealand
-Trip with Glynis and the girls
+## Dubai
+Jammed another upgrade to Business which was very nice, as I was still feeling rather delicate after my food poisoning in Vietnam. Actually, my only other food poisoning got me a Business class upgrade too. Maybe there's a pattern?
 
-Grandma's Birthday
+Was only there for the one day, but managed to catch up with the Dubai crew: Will, Jac, Yousef, Meredith & Martin. As well as have another scrummy meal at one of my favourite restaurants on Al Murraqqabat road.
 
-Day up at Mangawhai
+## Piston Broke
+I was going to let this one slide, as I had a motorbike trip the next day, but mates at UCAS didn't let me get away with it. So my 40th was a nice evening at the Swan pub doing a quiz night and a ton of friends dropping by to wish me well. Was a lovely evening and I was feeling well set for the next morning's journey.
 
-Glassblowing
+Met Todd & Jim at a petrol station on the M4 and we met up with D at Folkstone.
 
-##Thailand
-Koh Samui
+## London Olympics
 
-Koh Tao
+## Small Is Festival
 
-##Vietnam
-Hanoi
-
-Sa Pa
-
-Ha Long Bay
-
-Da Nang
-
-Hue
-
-Hoi An
-
-Na Trang
-
-Ho Chi Minh City
-
-##Thailand
-Bangkok
-
-##Dubai
-Jammed another upgrade to Business which was very nice, as I was still feeling rather delicate.
-
-##Piston Broke
-
-##London Olympics
-
-##Small Is Festival
-
-##Paul & Nadine's Wedding
+## Paul & Nadine's Wedding
 
 
 
