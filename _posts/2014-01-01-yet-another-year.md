@@ -21,6 +21,4 @@ Germany
 
 Keil Woche
 
-
-
 Australia
