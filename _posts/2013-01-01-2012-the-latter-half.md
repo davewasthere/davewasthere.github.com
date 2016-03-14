@@ -22,7 +22,7 @@ After Millau, we make a bee-line for Nice & Monaco, then hit the Grande Route de
 <img src="/travel/images/2012-awesome-lake.jpg">  
 *You just have to stop so often to take in the amazing scenery...*
 
-It really was a pretty incredible trip. Had some amazing campfires, food, swims, some nice wine and just road the most incredible roads. I've always loved France and Switzerland, but this time it was nice to see Liechtenstein and Austria. Managed to have a great weather for two and a bit weeks, but after a couple of water-drenched days, I was starting to feel pretty over the whole camping routine. So I parted with the boys and went west, into clearer weather and visiting friends in Switzerland.
+It really was a pretty incredible trip. Had some amazing campfires, food, swims, some nice wine and just biked the most incredible roads. I've always loved France and Switzerland, but this time it was nice to see Liechtenstein and Austria. Managed to have a great weather for two and a bit weeks, but after a couple of water-drenched days, I was starting to feel pretty over the whole camping routine. So I parted with the boys and went west, into clearer weather and visiting friends in Switzerland.
 
 
 ## London Olympics
@@ -43,6 +43,8 @@ Apart from the Olympics, Small Is festival, and my never-ended/very-slow-going h
 
 I'd managed to make it back in time for Paul's stag do, and Kev, Sam & I had gone to visit them on the last bike trip. But since Paul moved from Cheltenham, I've really seen too little of him. Life moves on like that though. Sometimes the planet seems so small, and other times, it's just too big.
 
-The wedding venue was so lush! At the Eibsee Hotel in Grainau. I don't think you could find a more picture-perfect location.
+The wedding venue was so lush! At the Eibsee Hotel in Grainau. I don't think you could find a more picture-perfect location. Definitely set a massively high bar for future weddings.
 
+After a lovely weekend, Maggie and I headed back to Munich for a quick explore before heading back to the UK. Wandered all around Munich, and I've got to say, it's a gorgeous city. Germany is really growing on me!
 
+I think the rest of the year was a bit of a blur, as I picked up a new project and that had me pretty busy. That, and I managed to break my camera in Germany, so I really didn't get out much and have very few photos... So it was all work and no play for poor Davie. I also left it pretty late (Early Dec) to head back down under for my annual winter avoidance. But got there in the end...
