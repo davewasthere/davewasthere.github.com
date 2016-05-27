@@ -3,7 +3,6 @@ layout: post
 title: A retrospective on 2014
 published: false
 ---
-#A retrospective on 2014
 
 New Zealand
 
