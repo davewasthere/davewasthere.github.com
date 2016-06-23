@@ -5,8 +5,25 @@ layout: default
 <p class="postdate">{{page.date | date_to_string }}</p>
 <h1>{{page.title}}</h1>
 
-<p><a href="/">Back Home</a></p>
-
 {{ content }}
+
+<div class="row">
+    
+    <div class="col-xs-12 col-sm-6">
+        <div class="prev">
+            {% if page.previous.url %}
+            <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}} "><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> {{page.previous.title}}</a>
+            {% endif %}
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <div class="next">
+            {% if page.next.url %}
+            <a href="{{page.next.url}}" title="next Post: {{page.next.title}} ">{{page.next.title}} <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+            {% endif %}
+        </div>
+    </div>
+
+</div>
 
 <p><a href="/">Back Home</a></p>

@@ -14,7 +14,11 @@ Was a little concerned that the weather would be rubbish after seeing a downpour
 
 Arriving at Grand Caribe the apartment was amazing. I'm normally quite a budget traveller, not really seeing much value in splashing out too much for a bed, so this was well outside my comfort zone. But man, was it nice!
 
-<img src="/travel/images/belize-bike-beach.jpg" /> <img src="/travel/images/belize-coastal-express.jpg" />
+<img src="/travel/images/belize-bike-beach.jpg" />  
+*The beach highway was pretty much the only way to navigate*
+
+<img src="/travel/images/belize-coastal-express.jpg" />  
+*Not a bad way to commute to the island*
 
 Basically, we spend two weeks just swimming, eating, drinking, diving and wandering around the island. It was a much needed period of bliss. Met some very cool people throughout and I've got nothing but fond memories of the trip. My only regret is the weather on the mainland was so horrible that we elected not to go exploring some of the Mayan ruins. That's something I would have been very keen on!
 

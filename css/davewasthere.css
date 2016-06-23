@@ -1,0 +1,34 @@
+img {
+    max-width: 100%;
+}
+
+.postdate {
+    color: #ccc;
+}
+
+.next a, .prev a {
+    line-height: 36px;
+    height: 43px;
+    display: block;
+    text-wrap: none;
+}
+
+.next {
+    text-align: right;
+}
+
+.next .glyphicon{
+    zoom: 2;
+    color: #eee;
+    float:right;
+}
+
+.prev .glyphicon {
+    zoom: 2;
+    color: #eee;
+    float:left;
+}
+
+.next:hover .glyphicon, .prev:hover .glyphicon {
+    color: #ccc;
+}
