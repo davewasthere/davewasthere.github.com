@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/davewasthere.css">
 
+    {% if page.previous.url %}
+    <link rel="prev" href="{{page.previous.url}}">
+    {% endif %}
+    {% if page.next.url %}
+    <link rel="next" href="{{page.next.url}}">
+    {% endif %} 
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
