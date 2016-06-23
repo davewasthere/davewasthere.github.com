@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Yet another year. A look back at 2013
+headerImage: /travel/images/2013-auckland-sunset.jpg
 published: true
 ---
 
@@ -8,9 +9,6 @@ published: true
 
 New Zealand is where I started the year. Made it back in time for Christmas/New Years. Ended up staying with my amazing Uncle & Auntie (Ken & Pat) for a lot of it.
 I still had a fair bit of work on, but would spend the days with my cousin (when he was awake), watching the birdlife out front, playing golf with Kenny, catching up with rallies - and just working most evenings.
-
-<img src="/travel/images/2013-auckland-sunset.jpg">  
-*There were some incredible sunsets on offer from Red Hill*
 
 Managed to still get around the country though. Headed down to Wellington briefly for a catchup with folks out there, and got out sailing with an ex-Airforce mate. That was exciting! Gusting to 20-something knots and the rudder weld ripped apart, so we briefly drifted fairly close to the sea wall before throwing the outboard on and manouvering away.
 

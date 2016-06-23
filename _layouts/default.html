@@ -50,6 +50,12 @@
 </head>
 <body>
 
+    {% if page.headerImage %}
+    <header style="background-image: url({{ page.headerImage }});">
+        
+    </header>
+    {% endif %}
+
     <div class="container">
         {{ content }}
     </div>

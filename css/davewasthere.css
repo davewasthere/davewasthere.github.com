@@ -32,3 +32,37 @@ img {
 .next:hover .glyphicon, .prev:hover .glyphicon {
     color: #ccc;
 }
+
+header {
+    background-size: cover;
+    margin-bottom: 1em;
+}
+
+@media(max-width:767px){
+
+    header {
+        height: 150px;
+    }
+
+}
+@media(min-width:768px){
+
+    header {
+        height: 200px;
+    }
+
+}
+@media(min-width:992px){
+
+    header {
+        height: 300px;
+    }
+
+}
+@media(min-width:1200px){
+
+    header {
+        height: 400px;
+    }
+
+}

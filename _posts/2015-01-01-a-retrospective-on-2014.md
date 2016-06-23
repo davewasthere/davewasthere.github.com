@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A retrospective on 2014
+headerImage: /travel/images/2014-rural-aus.jpg
 published: false
 ---
 
