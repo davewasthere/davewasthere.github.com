@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2012 - The latter half
+headerImage: /travel/images/2012-awesome-lake.jpg
 published: true
 ---
 ## Dubai
@@ -17,13 +18,7 @@ I've taken multiple different routes on bike trips. But this time we went south 
 <img src="/travel/images/2012-millau.jpg">  
 *Camped underneath the bridge, having our first campfire of the trip... quickly became a theme.*
 
-After Millau, we make a bee-line for Nice & Monaco, then hit the Grande Route des Alpes.
-
-<img src="/travel/images/2012-awesome-lake.jpg">  
-*You just have to stop so often to take in the amazing scenery...*
-
-It really was a pretty incredible trip. Had some amazing campfires, food, swims, some nice wine and just biked the most incredible roads. I've always loved France and Switzerland, but this time it was nice to see Liechtenstein and Austria. Managed to have a great weather for two and a bit weeks, but after a couple of water-drenched days, I was starting to feel pretty over the whole camping routine. So I parted with the boys and went west, into clearer weather and visiting friends in Switzerland.
-
+After Millau, we made a bee-line for Nice & Monaco, then hit the Grande Route des Alpes. It really was a pretty incredible trip. Had some amazing campfires, food, swims, some nice wine and just biked the most incredible roads. I've always loved France and Switzerland, but this time it was nice to see Liechtenstein and Austria. Managed to have a great weather for two and a bit weeks, but after a couple of water-drenched days, I was starting to feel pretty over the whole camping routine. So I parted with the boys and went west, into clearer weather and visiting friends in Switzerland.
 
 ## London Olympics
 

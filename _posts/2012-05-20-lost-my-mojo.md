@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lost my Mojo
+headerImage: /travel/images/bangkok-river.jpg
 published: true
 ---
 
@@ -100,9 +101,6 @@ We all flew down to Da Nang. Another awesome hotel, we organised bikes so we cou
 *Obligatory selfie while riding the coastal road north of Da Nang*
 
 I was still feeling really rough after my food poisoning, so ended up flying back to Thailand earlier than I'd planned in order to get a full medical check-up. Was worried that I'd picked up some sort of parasite or something, but no. Just regular food poisoning. While in Bangkok, I relaxed my 'on-a-budget' rule and splashed out for something five star, quiet, relaxing and away from the seedy part of town. The Chatrium Hotel Riverside was just the ticket. I spent a few days doing nothing more than swimming, reading and relaxing. Was lovely!
-
-<img src="/travel/images/bangkok-river.jpg">  
-*My view from the Chatrium. Very relaxing watching the boats go by!*
 
 After a few days of swanning around in luxury, I went back to some rather more modest digs in town. While there, I met the [most incredible family](http://www.forbes.com/hsbcpersonaleconomy/global-classrooms.html). Annie taught me how to do the egg-beater kick in the pool (a water polo thing). They were travelling for a year with kids, having the most amazing time!
 
