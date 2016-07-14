@@ -4,84 +4,84 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.davewasthere.com/</loc>
+    <loc>https://www.davewasthere.com/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number001.html</loc>
+    <loc>https://www.davewasthere.com/travel/number001.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number002.html</loc>
+    <loc>https://www.davewasthere.com/travel/number002.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number003.html</loc>
+    <loc>https://www.davewasthere.com/travel/number003.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number004.html</loc>
+    <loc>https://www.davewasthere.com/travel/number004.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number005.html</loc>
+    <loc>https://www.davewasthere.com/travel/number005.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number006.html</loc>
+    <loc>https://www.davewasthere.com/travel/number006.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number007.html</loc>
+    <loc>https://www.davewasthere.com/travel/number007.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number008.html</loc>
+    <loc>https://www.davewasthere.com/travel/number008.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number009.html</loc>
+    <loc>https://www.davewasthere.com/travel/number009.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number010.html</loc>
+    <loc>https://www.davewasthere.com/travel/number010.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number011.html</loc>
+    <loc>https://www.davewasthere.com/travel/number011.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number012.html</loc>
+    <loc>https://www.davewasthere.com/travel/number012.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number013.html</loc>
+    <loc>https://www.davewasthere.com/travel/number013.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number014.html</loc>
+    <loc>https://www.davewasthere.com/travel/number014.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number015.html</loc>
+    <loc>https://www.davewasthere.com/travel/number015.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number016.html</loc>
+    <loc>https://www.davewasthere.com/travel/number016.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number017-2006-in-brief.html</loc>
+    <loc>https://www.davewasthere.com/travel/number017-2006-in-brief.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number018-and-then-its-2007.html</loc>
+    <loc>https://www.davewasthere.com/travel/number018-and-then-its-2007.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number019-best-summer-ever.html</loc>
+    <loc>https://www.davewasthere.com/travel/number019-best-summer-ever.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number020-where-kiwi-dave-becomes-a-brit.html</loc>
+    <loc>https://www.davewasthere.com/travel/number020-where-kiwi-dave-becomes-a-brit.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number021-one-last-try.html</loc>
+    <loc>https://www.davewasthere.com/travel/number021-one-last-try.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number022-another-ending.html</loc>
+    <loc>https://www.davewasthere.com/travel/number022-another-ending.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number023-so-what-now-for-dave.html</loc>
+    <loc>https://www.davewasthere.com/travel/number023-so-what-now-for-dave.html</loc>
   </url>
   <url>
-    <loc>http://www.davewasthere.com/travel/number024-things-are-always-changing.html</loc>
+    <loc>https://www.davewasthere.com/travel/number024-things-are-always-changing.html</loc>
   </url>
   {% for post in site.posts %}
   <url>
-    <loc>http://www.davewasthere.com{{ post.url }}</loc>
+    <loc>https://www.davewasthere.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   </url>
   {% endfor %}
