@@ -37,6 +37,8 @@ One of the most amazing sights to me, was the abandoned Sheraton Resort on the s
 
 ## Sam and Anje
 
+Once back in the UK, next trip was off to Bermuda for Sam and 
+
 <img src="/travel/images/2014-bermuda.jpg" />  
 *Got to admit, I was pretty blown away by how stunning Bermuda was...*
 
