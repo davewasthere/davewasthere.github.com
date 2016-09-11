@@ -28,7 +28,7 @@ function initMap(){
 
   addMyLocationButton();
 
-  setTimeout(centerMapOnLocation, 500);
+  $('current-location').click();
 
 }
 
