@@ -4,7 +4,9 @@ function initMap(){
       lat: centerLat,
       lng: centerLng
     },
-    zoom: 17,
+    zoom: 18,
+    zoomControl: false,
+    scaleControl: true,
     fullscreenControl: true,
     streetViewControl: false,
     mapTypeControl: false,
@@ -27,8 +29,7 @@ function initMap(){
   });
 
   addMyLocationButton();
-
-  $('current-location').click();
+  setTimeout(centerMapOnLocation, 1000);
 
 }
 
