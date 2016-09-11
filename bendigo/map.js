@@ -4,6 +4,11 @@ function initMap(){
       lat: centerLat,
       lng: centerLng
     },
+    draggable: false,
+    scrollwheel: false,
+    panControl: false,
+    maxZoom: 18,
+    minZoom: 18,
     zoom: 18,
     zoomControl: false,
     scaleControl: true,
@@ -29,7 +34,6 @@ function initMap(){
   });
 
   addMyLocationButton();
-  setTimeout(centerMapOnLocation, 1000);
 
 }
 
@@ -130,3 +134,16 @@ function centerMapOnLocation() {
     currentLocation.style.backgroundPosition = '0px 0px'
   }
 }
+
+
+function getPointDistance(pointA, pointB) {
+  return google.maps.geometry.spherical.computeDistanceBetween(pointA, pointB)
+}
+
+
+$(function () {
+
+  window.setInterval(centerMapOnLocation, 2000)
+
+});
+
