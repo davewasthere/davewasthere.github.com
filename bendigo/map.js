@@ -189,7 +189,7 @@ function addRangeCircle(marker, map, type, teamId) {
     radius: range, // meters
     strokeWeight: 1,
     strokeColor: circleColor,
-    strokeOpacity: 0.9,
+    strokeOpacity: 0.6,
     center: circleCenter,
     fillColor: circleColor,
     fillOpacity: 0.3
@@ -412,15 +412,38 @@ function processSpawnpoints(i, item) {
 
   var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude'])
   var distance = getPointDistance(circleCenter, centerMap);
-  
+  var radius = 2;
+  var show = false;
+  var borderOpacity = 1;
+
   if (id in mapData.spawnpoints) {
     var color = getColorBySpawnTime(item['time']);
+    var radius = getRadiusBySpawnTime(item['time']);
+    borderOpacity = 1;
+
+    if(radius > 0 && radius < 18)
+    {
+      show = true;
+      if(radius > 14)
+      {
+        borderOpacity = 0.3;
+      }
+    }
+    else
+    {
+      show = false;
+    }
+
+
+    // console.debug(minutes);
 
     mapData.spawnpoints[id].marker.setOptions({
-      fillColor: color
+      fillColor: color,
+      radius: radius + 2,
+      strokeOpacity: borderOpacity
     });
 
-    if(color == 'hsl(275,100%,50%)' || distance > 250)
+    if(distance > 250 || !show)
     {
       mapData.spawnpoints[id].marker.setMap(null);
     }
@@ -445,13 +468,30 @@ function setupSpawnpointMarker(item) {
   var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude'])
   var distance = getPointDistance(circleCenter, centerMap);
   var color = getColorBySpawnTime(item.time);
+  var radius = getRadiusBySpawnTime(item['time']);
+  var show = false;
+  var borderOpacity = 1;
+
+  if(radius > 0 && radius < 18)
+  {
+    show = true;
+    if(radius > 14)
+    {
+      borderOpacity = 0.3;
+    }
+  }
+  else
+  {
+    show = false;
+  }
 
   var marker = new google.maps.Circle({
-    map: distance < 250 && color != 'hsl(275,100%,50%)' ? map : null,
+    map: distance < 250 && show ? map : null,
     center: circleCenter,
-    radius: 5, // metres
+    radius: radius + 2, // metres
     fillColor: color,
-    strokeWeight: 1
+    strokeWeight: 1,
+    strokeOpacity: borderOpacity
   })
 
   //marker.infoWindow = new google.maps.InfoWindow({
@@ -534,6 +574,7 @@ function spawnpointLabel (item) {
 function getColorBySpawnTime(value) {
   var now = new Date()
   var seconds = now.getMinutes() * 60 + now.getSeconds()
+  var alpha = 1;
 
   // account for hour roll-over
   if (seconds < 900 && value > 2700) {
@@ -549,9 +590,28 @@ function getColorBySpawnTime(value) {
     hue = (1 - (diff / 60 / 15)) * 120
   } else if (diff < 0 && diff > -300) { // light blue to dark blue over 5 minutes til spawn
     hue = ((1 - (-diff / 60 / 5)) * 50) + 200
+    alpha = 0.2;
   }
 
-  return ['hsl(', hue, ',100%,50%)'].join('')
+  return ['hsla(', hue, ',100%,50%,', alpha,')'].join('')
+}
+
+
+function getRadiusBySpawnTime(value)
+{
+  var now = new Date();
+  var seconds = now.getMinutes() * 60 + now.getSeconds();
+
+  // account for hour roll-over
+  if (seconds < 900 && value > 2700) {
+    seconds += 3600;
+  } else if (seconds > 2700 && value < 900) {
+    value += 3600;
+  }
+
+  var minutesRemaining = 15 - (seconds - value) / 60;
+
+  return Math.round(minutesRemaining);
 }
 
 
