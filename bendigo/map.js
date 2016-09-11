@@ -263,50 +263,36 @@ function loadRawData() {
 function showInBoundsMarkers(markers, type) {
   $.each(markers, function (key, value) {
     var marker = markers[key].marker
-    var show = false
-    if (!markers[key].hidden) {
-      if (typeof marker.getBounds === 'function') {
-        if (map.getBounds().intersects(marker.getBounds())) {
-          show = true
-        }
-      } else if (typeof marker.getPosition === 'function') {
-        if (map.getBounds().contains(marker.getPosition())) {
-          show = true
-        }
-      }
-    }
-    //// marker has an associated range
-    //if (show && rangeMarkers.indexOf(type) !== -1) {
-    //  // no range circle yet...let's create one
-    //  if (!marker.rangeCircle) {
-    //    // but only if range is active
-    //    if (isRangeActive(map)) {
-    //      if (type === 'gym') marker.rangeCircle = addRangeCircle(marker, map, type, markers[key].team_id)
-    //      else marker.rangeCircle = addRangeCircle(marker, map, type)
-    //    }
-    //  } else { // there's already a range circle
-    //    if (isRangeActive(map)) {
-    //      marker.rangeCircle.setMap(map)
-    //    } else {
-    //      marker.rangeCircle.setMap(null)
-    //    }
-    //  }
-    //}
+ 
+    
+    
+//  var show = false
+  //  if (!markers[key].hidden) {
+  //    if (typeof marker.getBounds === 'function') {
+  //      if (map.getBounds().intersects(marker.getBounds())) {
+  //        show = true
+  //      }
+  //    } else if (typeof marker.getPosition === 'function') {
+  //      if (map.getBounds().contains(marker.getPosition())) {
+  //        show = true
+  //      }
+  //    }
+  //  }
 
-    if (show && !marker.getMap()) {
-      marker.setMap(map)
-      // Not all markers can be animated (ex: scan locations)
-      if (marker.setAnimation && marker.oldAnimation) {
-        marker.setAnimation(marker.oldAnimation)
-      }
-    } else if (!show && marker.getMap()) {
-      // Not all markers can be animated (ex: scan locations)
-      if (marker.getAnimation) {
-        marker.oldAnimation = marker.getAnimation()
-      }
-      if (marker.rangeCircle) marker.rangeCircle.setMap(null)
-      marker.setMap(null)
-    }
+  //  if (show && !marker.getMap()) {
+  //    marker.setMap(map)
+  //    // Not all markers can be animated (ex: scan locations)
+  //    if (marker.setAnimation && marker.oldAnimation) {
+  //      marker.setAnimation(marker.oldAnimation)
+  //    }
+  //  } else if (!show && marker.getMap()) {
+  //    // Not all markers can be animated (ex: scan locations)
+  //    if (marker.getAnimation) {
+  //      marker.oldAnimation = marker.getAnimation()
+  //    }
+  //    if (marker.rangeCircle) marker.rangeCircle.setMap(null)
+  //     marker.setMap(map)
+  //  }
   })
 }
 
@@ -323,32 +309,19 @@ function clearStaleMarkers() {
       delete mapData.pokemons[key]
     }
   })
-
-  $.each(mapData.lurePokemons, function (key, value) {
-    if (mapData.lurePokemons[key]['lure_expiration'] < new Date().getTime() ||
-      excludedPokemon.indexOf(mapData.lurePokemons[key]['pokemon_id']) >= 0) {
-      mapData.lurePokemons[key].marker.setMap(null)
-      delete mapData.lurePokemons[key]
-    }
-  })
-
-  $.each(mapData.scanned, function (key, value) {
-    // If older than 15mins remove
-    if (mapData.scanned[key]['last_modified'] < (new Date().getTime() - 15 * 60 * 1000)) {
-      mapData.scanned[key].marker.setMap(null)
-      delete mapData.scanned[key]
-    }
-  })
 }
 
 
 function processSpawnpoints(i, item) {
   var id = item['spawnpoint_id']
 
+  var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude'])
+  var distance = getPointDistance(circleCenter, centerMap);
+
   if (id in mapData.spawnpoints) {
     mapData.spawnpoints[id].marker.setOptions({
       fillColor: getColorBySpawnTime(item['time'])
-    })
+    });
   } else { // add marker to map and item to dict
     if (item.marker) {
       item.marker.setMap(null)
@@ -363,12 +336,14 @@ function processSpawnpoints(i, item) {
 
 function setupSpawnpointMarker(item) {
   var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude'])
+  var distance = getPointDistance(circleCenter, centerMap);
+  var color = getColorBySpawnTime(item.time);
 
   var marker = new google.maps.Circle({
-    map: map,
+    map: distance < 250 && color != 'hsl(275,100%,50%)' ? map : null,
     center: circleCenter,
     radius: 5, // metres
-    fillColor: getColorBySpawnTime(item.time),
+    fillColor: color,
     strokeWeight: 1
   })
 
@@ -408,7 +383,7 @@ function addListeners (marker) {
   marker.addListener('mouseover', function () {
     marker.infoWindow.open(map, marker)
     clearSelection()
-    updateLabelDiffTime()
+    //updateLabelDiffTime()
   })
 
   marker.addListener('mouseout', function () {
@@ -426,6 +401,8 @@ function formatSpawnTime (seconds) {
   // the subtraction to get the appearance time will knock seconds under 0 if the spawn happens in the previous hour
   return ('0' + Math.floor(((seconds + 3600) % 3600) / 60)).substr(-2) + ':' + ('0' + seconds % 60).substr(-2)
 }
+
+
 function spawnpointLabel (item) {
   var str = `
     <div>
@@ -483,15 +460,15 @@ $(function () {
   window.setInterval(function () {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function (position) {
-        var lat = position.coords.latitude
-        var lon = position.coords.longitude
+        centerLat = position.coords.latitude;
+        centerLong = position.coords.longitude;
+        centerMap = new google.maps.LatLng(centerLat, centerLong);
 
         $('#current-location').css('background-position', '-144px 0px');
 
-        if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(lat, lon))) > 40) {
-            var center = new google.maps.LatLng(lat, lon)
+        if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(centerLat, centerLong))) > 40) {
+          var center = new google.maps.LatLng(centerLat, centerLong)
             map.panTo(center)
-            searchMarker.setPosition(center)
             locationMarker.rangeCircle.setCenter(center);
         }
       })
