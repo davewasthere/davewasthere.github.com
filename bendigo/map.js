@@ -38,6 +38,59 @@ function initMap(){
 }
 
 
+
+function addRangeCircle(marker, map, type, teamId) {
+  var targetmap = null
+  var circleCenter = new google.maps.LatLng(marker.position.lat(), marker.position.lng())
+  var gymColors = ['#999999', '#0051CF', '#FF260E', '#FECC23'] // 'Uncontested', 'Mystic', 'Valor', 'Instinct']
+  var teamColor = gymColors[0]
+  if (teamId) teamColor = gymColors[teamId]
+
+  var range
+  var circleColor
+
+  // handle each type of marker and be explicit about the range circle attributes
+  switch (type) {
+    case 'pokemon':
+      circleColor = '#C233F2'
+      range = 40 // pokemon appear at 40m and then you can move away. still have to be 40m close to see it though, so ignore the further disappear distance
+      break
+    case 'pokestop':
+      circleColor = '#3EB0FF'
+      range = 40
+      break
+    case 'gym':
+      circleColor = teamColor
+      range = 40
+      break
+    case 'nearby':
+      circleColor = '#FECC23'
+      range = 201
+      break
+    case 'visible':
+      circleColor = '#FECC23'
+      range = 70
+      break
+  }
+
+  if (map) targetmap = map
+
+  var rangeCircleOpts = {
+    map: targetmap,
+    radius: range, // meters
+    strokeWeight: 1,
+    strokeColor: circleColor,
+    strokeOpacity: 0.9,
+    center: circleCenter,
+    fillColor: circleColor,
+    fillOpacity: 0.3
+  }
+  var rangeCircle = new google.maps.Circle(rangeCircleOpts)
+  return rangeCircle
+}
+
+
+
 function addMyLocationButton() {
   locationMarker = new google.maps.Marker({
     map: map,
@@ -57,7 +110,7 @@ function addMyLocationButton() {
     }
   })
   locationMarker.setVisible(false)
-
+  
   myLocationButton(map, locationMarker)
 
   //google.maps.event.addListener(map, 'dragend', function () {
@@ -128,6 +181,14 @@ function centerMapOnLocation() {
       map.setCenter(latlng)
       clearInterval(animationInterval)
       currentLocation.style.backgroundPosition = '-144px 0px'
+
+      if (locationMarker.rangeCirle)
+      { }
+      else
+      {
+        locationMarker.rangeCirle = addRangeCircle(locationMarker, map, 'nearby');
+      }
+
     })
   } else {
     clearInterval(animationInterval)
@@ -144,7 +205,6 @@ function getPointDistance(pointA, pointB) {
 $(function () {
 
   window.setInterval(centerMapOnLocation, 2000);
-  document.documentElement.ontouchstart = function () { return false };
 
 });
 
