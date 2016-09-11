@@ -474,7 +474,6 @@ function getColorBySpawnTime(value) {
 
 $(function () {
 
-  loadRawData();
   centerMapOnLocation();
   //window.setInterval(centerMapOnLocation, 5000);
 
