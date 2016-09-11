@@ -60,13 +60,13 @@ function addMyLocationButton() {
 
   myLocationButton(map, locationMarker)
 
-  google.maps.event.addListener(map, 'dragend', function () {
-    var currentLocation = document.getElementById('current-location')
-    currentLocation.style.backgroundPosition = '0px 0px'
-    locationMarker.setOptions({
-      'opacity': 0.5
-    })
-  })
+  //google.maps.event.addListener(map, 'dragend', function () {
+  //  var currentLocation = document.getElementById('current-location')
+  //  currentLocation.style.backgroundPosition = '0px 0px'
+  //  locationMarker.setOptions({
+  //    'opacity': 0.5
+  //  })
+  //})
 }
 
 function myLocationButton(map, marker) {
@@ -143,7 +143,8 @@ function getPointDistance(pointA, pointB) {
 
 $(function () {
 
-  window.setInterval(centerMapOnLocation, 2000)
+  window.setInterval(centerMapOnLocation, 2000);
+  document.documentElement.ontouchstart = function () { return false };
 
 });
 
