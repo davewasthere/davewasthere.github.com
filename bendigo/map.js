@@ -231,8 +231,8 @@ function updateMap() {
   var neLng = nePoint.lng()
 
   $.each(mapData.spawnpoints, processSpawnpoints);
-  showInBoundsMarkers(mapData.spawnpoints, 'inbound');
-  clearStaleMarkers();
+  // showInBoundsMarkers(mapData.spawnpoints, 'inbound');
+  // clearStaleMarkers();
 }
 
 function loadRawData() {
@@ -294,6 +294,7 @@ function showInBoundsMarkers(markers, type) {
   //    if (marker.rangeCircle) marker.rangeCircle.setMap(null)
   //     marker.setMap(map)
   //  }
+
   })
 }
 
@@ -318,11 +319,23 @@ function processSpawnpoints(i, item) {
 
   var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude'])
   var distance = getPointDistance(circleCenter, centerMap);
-
+  
   if (id in mapData.spawnpoints) {
+    var color = getColorBySpawnTime(item['time']);
+
     mapData.spawnpoints[id].marker.setOptions({
-      fillColor: getColorBySpawnTime(item['time'])
+      fillColor: color
     });
+
+    if(color == 'hsl(275,100%,50%)' || distance > 250)
+    {
+      mapData.spawnpoints[id].marker.setMap(null);
+    }
+    else
+    {
+      mapData.spawnpoints[id].marker.setMap(map);
+    }
+
   } else { // add marker to map and item to dict
     if (item.marker) {
       item.marker.setMap(null)
