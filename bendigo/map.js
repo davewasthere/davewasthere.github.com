@@ -160,7 +160,7 @@ function myLocationButton(map, marker) {
   locationButton.appendChild(locationIcon)
 
   locationButton.addEventListener('click', function () {
-    centerMapOnLocation()
+    centerMapOnLocation();
   })
 
   locationContainer.index = 1
@@ -487,6 +487,7 @@ $(function () {
           map.panTo(center)
           if(locationMarker && locationMarker.rangeCircle)
           {
+            locationMarker.setCenter(center);
             locationMarker.rangeCircle.setCenter(center);
           }
         }
