@@ -230,6 +230,7 @@ function updateMap() {
   var neLat = nePoint.lat()
   var neLng = nePoint.lng()
 
+  $.each(mapData.spawnpoints, processSpawnpoints);
   showInBoundsMarkers(mapData.spawnpoints, 'inbound');
   clearStaleMarkers();
 }
@@ -347,13 +348,13 @@ function setupSpawnpointMarker(item) {
     strokeWeight: 1
   })
 
-  marker.infoWindow = new google.maps.InfoWindow({
-    content: spawnpointLabel(item),
-    disableAutoPan: true,
-    position: circleCenter
-  })
+  //marker.infoWindow = new google.maps.InfoWindow({
+  //  content: spawnpointLabel(item),
+  //  disableAutoPan: true,
+  //  position: circleCenter
+  //})
 
-  addListeners(marker)
+  //addListeners(marker)
 
   return marker
 }
