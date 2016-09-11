@@ -424,7 +424,7 @@ function processSpawnpoints(i, item) {
     if(radius > 0 && radius < 18)
     {
       show = true;
-      if(radius > 14)
+      if(radius > 15 || radius == 0)
       {
         borderOpacity = 0.3;
       }
@@ -475,7 +475,7 @@ function setupSpawnpointMarker(item) {
   if(radius > 0 && radius < 18)
   {
     show = true;
-    if(radius > 14)
+    if(radius > 15 || radius == 0)
     {
       borderOpacity = 0.3;
     }
@@ -611,7 +611,7 @@ function getRadiusBySpawnTime(value)
 
   var minutesRemaining = 15 - (seconds - value) / 60;
 
-  return Math.round(minutesRemaining);
+  return minutesRemaining;
 }
 
 
