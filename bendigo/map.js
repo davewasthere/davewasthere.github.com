@@ -177,7 +177,7 @@ function centerMapOnLocation() {
     } else {
       imgX = '-18'
     }
-    // currentLocation.style.backgroundPosition = imgX + 'px 0'
+    currentLocation.style.backgroundPosition = imgX + 'px 0'
   }, 500)
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function (position) {
@@ -186,15 +186,15 @@ function centerMapOnLocation() {
       locationMarker.setOptions({
         'opacity': 1
       })
-      locationMarker.setPosition(latlng)
-      map.setCenter(latlng)
-      clearInterval(animationInterval)
+      locationMarker.setPosition(latlng);
+      map.setCenter(latlng);
+      clearInterval(animationInterval);
 
       $('#current-location').css('background-position', '-144px 0px');
 
       if (locationMarker.rangeCircle)
       {
-        locationMarker.rangeCircle.setCenter(latlng)
+        locationMarker.rangeCircle.setCenter(latlng);
       }
       else
       {
@@ -203,8 +203,8 @@ function centerMapOnLocation() {
 
     })
   } else {
-    clearInterval(animationInterval)
-    currentLocation.style.backgroundPosition = '0px 0px'
+    clearInterval(animationInterval);
+    currentLocation.style.backgroundPosition = '0px 0px';
   }
 }
 
@@ -466,6 +466,8 @@ function getColorBySpawnTime(value) {
 $(function () {
 
   centerMapOnLocation();
+
+
   //window.setInterval(centerMapOnLocation, 5000);
 
 //  window.setInterval(updateLabelDiffTime, 1000)
@@ -482,8 +484,11 @@ $(function () {
 
         if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(centerLat, centerLong))) > 40) {
           var center = new google.maps.LatLng(centerLat, centerLong)
-            map.panTo(center)
+          map.panTo(center)
+          if(locationMarker && locationMarker.rangeCircle)
+          {
             locationMarker.rangeCircle.setCenter(center);
+          }
         }
       })
     }
