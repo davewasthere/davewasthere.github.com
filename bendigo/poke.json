@@ -1,0 +1,3121 @@
+{
+  "spawnpoints": [
+    {
+      "latitude": -36.76042945647963, 
+      "longitude": 144.28136702493262, 
+      "spawnpoint_id": "6ad759932a5", 
+      "time": 1362
+    }, 
+    {
+      "latitude": -36.75619450628757, 
+      "longitude": 144.32165376870216, 
+      "spawnpoint_id": "6ad75919b1d", 
+      "time": 3294
+    }, 
+    {
+      "latitude": -36.742486901102744, 
+      "longitude": 144.29382643469958, 
+      "spawnpoint_id": "6ad759adc75", 
+      "time": 754
+    }, 
+    {
+      "latitude": -36.770974544980994, 
+      "longitude": 144.30919002396877, 
+      "spawnpoint_id": "6ad75970c5f", 
+      "time": 365
+    }, 
+    {
+      "latitude": -36.756542464565825, 
+      "longitude": 144.2807697047823, 
+      "spawnpoint_id": "6ad759eb36b", 
+      "time": 1319
+    }, 
+    {
+      "latitude": -36.77161830238165, 
+      "longitude": 144.31618997054318, 
+      "spawnpoint_id": "6ad7596e5c7", 
+      "time": 473
+    }, 
+    {
+      "latitude": -36.78159502389395, 
+      "longitude": 144.2987766023255, 
+      "spawnpoint_id": "6ad75a2bc0d", 
+      "time": 3472
+    }, 
+    {
+      "latitude": -36.753656493993596, 
+      "longitude": 144.28051371179973, 
+      "spawnpoint_id": "6ad759eaaf9", 
+      "time": 622
+    }, 
+    {
+      "latitude": -36.77985357811525, 
+      "longitude": 144.3086778567891, 
+      "spawnpoint_id": "6ad7597dd71", 
+      "time": 1139
+    }, 
+    {
+      "latitude": -36.752963220224444, 
+      "longitude": 144.309702194426, 
+      "spawnpoint_id": "6ad75905ec9", 
+      "time": 1437
+    }, 
+    {
+      "latitude": -36.75669687515589, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75919f9f", 
+      "time": 1084
+    }, 
+    {
+      "latitude": -36.75841135672735, 
+      "longitude": 144.28384168457225, 
+      "spawnpoint_id": "6ad75994881", 
+      "time": 1663
+    }, 
+    {
+      "latitude": -36.76585021773868, 
+      "longitude": 144.30884857881816, 
+      "spawnpoint_id": "6ad7597385f", 
+      "time": 3087
+    }, 
+    {
+      "latitude": -36.75591045094995, 
+      "longitude": 144.27744186001436, 
+      "spawnpoint_id": "6ad759eb96b", 
+      "time": 2550
+    }, 
+    {
+      "latitude": -36.75548168070975, 
+      "longitude": 144.28239101272626, 
+      "spawnpoint_id": "6ad759953d1", 
+      "time": 2159
+    }, 
+    {
+      "latitude": -36.758235473579084, 
+      "longitude": 144.28162302065027, 
+      "spawnpoint_id": "6ad75994a9d", 
+      "time": 2957
+    }, 
+    {
+      "latitude": -36.759377457573265, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad75917295", 
+      "time": 1700
+    }, 
+    {
+      "latitude": -36.759218194048316, 
+      "longitude": 144.31610460165462, 
+      "spawnpoint_id": "6ad75911a49", 
+      "time": 2788
+    }, 
+    {
+      "latitude": -36.79875413618337, 
+      "longitude": 144.24314754695294, 
+      "spawnpoint_id": "6ad75062291", 
+      "time": 721
+    }, 
+    {
+      "latitude": -36.75783385772554, 
+      "longitude": 144.3159338641505, 
+      "spawnpoint_id": "6ad759104fd", 
+      "time": 2032
+    }, 
+    {
+      "latitude": -36.76040003708431, 
+      "longitude": 144.28128169320908, 
+      "spawnpoint_id": "6ad759932af", 
+      "time": 2031
+    }, 
+    {
+      "latitude": -36.75835344738856, 
+      "longitude": 144.28111103003548, 
+      "spawnpoint_id": "6ad759ecab5", 
+      "time": 3185
+    }, 
+    {
+      "latitude": -36.772312937048746, 
+      "longitude": 144.3120070020416, 
+      "spawnpoint_id": "6ad75970683", 
+      "time": 335
+    }, 
+    {
+      "latitude": -36.75533443104268, 
+      "longitude": 144.28239101272626, 
+      "spawnpoint_id": "6ad759953dd", 
+      "time": 583
+    }, 
+    {
+      "latitude": -36.75536384810562, 
+      "longitude": 144.28247634563496, 
+      "spawnpoint_id": "6ad759953df", 
+      "time": 939
+    }, 
+    {
+      "latitude": -36.75990716053681, 
+      "longitude": 144.32045853100544, 
+      "spawnpoint_id": "6ad75916df5", 
+      "time": 2625
+    }, 
+    {
+      "latitude": -36.75993655175612, 
+      "longitude": 144.32054390453519, 
+      "spawnpoint_id": "6ad75916df7", 
+      "time": 731
+    }, 
+    {
+      "latitude": -36.76530246584068, 
+      "longitude": 144.31345821125325, 
+      "spawnpoint_id": "6ad75972a45", 
+      "time": 3260
+    }, 
+    {
+      "latitude": -36.77041611655913, 
+      "longitude": 144.30714137491648, 
+      "spawnpoint_id": "6ad759773e3", 
+      "time": 897
+    }, 
+    {
+      "latitude": -36.76243293489112, 
+      "longitude": 144.31004364321836, 
+      "spawnpoint_id": "6ad7590cc13", 
+      "time": 3250
+    }, 
+    {
+      "latitude": -36.77872434773461, 
+      "longitude": 144.29834985166647, 
+      "spawnpoint_id": "6ad75a2a0fd", 
+      "time": 3172
+    }, 
+    {
+      "latitude": -36.776511324927, 
+      "longitude": 144.30859249591114, 
+      "spawnpoint_id": "6ad7597bfd1", 
+      "time": 1410
+    }, 
+    {
+      "latitude": -36.76492417114129, 
+      "longitude": 144.3059463538558, 
+      "spawnpoint_id": "6ad759744d9", 
+      "time": 175
+    }, 
+    {
+      "latitude": -36.77452354938931, 
+      "longitude": 144.30859249591114, 
+      "spawnpoint_id": "6ad7597a2af", 
+      "time": 101
+    }, 
+    {
+      "latitude": -36.745051044831285, 
+      "longitude": 144.29143680829935, 
+      "spawnpoint_id": "6ad759b1d29", 
+      "time": 1664
+    }, 
+    {
+      "latitude": -36.755904601774674, 
+      "longitude": 144.31567775857692, 
+      "spawnpoint_id": "6ad75910761", 
+      "time": 882
+    }, 
+    {
+      "latitude": -36.77115096004993, 
+      "longitude": 144.309702194426, 
+      "spawnpoint_id": "6ad75970c23", 
+      "time": 192
+    }, 
+    {
+      "latitude": -36.77315071772072, 
+      "longitude": 144.31465334447415, 
+      "spawnpoint_id": "6ad7596fc2b", 
+      "time": 51
+    }, 
+    {
+      "latitude": -36.76022097976863, 
+      "longitude": 144.3143118760192, 
+      "spawnpoint_id": "6ad75912023", 
+      "time": 1175
+    }, 
+    {
+      "latitude": -36.76457654145602, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75914815", 
+      "time": 3204
+    }, 
+    {
+      "latitude": -36.76135061249373, 
+      "longitude": 144.3203731575667, 
+      "spawnpoint_id": "6ad75916bbf", 
+      "time": 1186
+    }, 
+    {
+      "latitude": -36.759794588376145, 
+      "longitude": 144.31328747939233, 
+      "spawnpoint_id": "6ad7590dfd5", 
+      "special": true, 
+      "time": 2018
+    }, 
+    {
+      "latitude": -36.758220688696895, 
+      "longitude": 144.2817936849179, 
+      "spawnpoint_id": "6ad75994a87", 
+      "time": 2163
+    }, 
+    {
+      "latitude": -36.78388026033269, 
+      "longitude": 144.28640175797688, 
+      "spawnpoint_id": "6ad75a3ca91", 
+      "time": 2079
+    }, 
+    {
+      "latitude": -36.75939328972618, 
+      "longitude": 144.31832422233578, 
+      "spawnpoint_id": "6ad75911215", 
+      "time": 842
+    }, 
+    {
+      "latitude": -36.7595382797156, 
+      "longitude": 144.32131227039756, 
+      "spawnpoint_id": "6ad75917107", 
+      "time": 485
+    }, 
+    {
+      "latitude": -36.77798218579892, 
+      "longitude": 144.31158018080953, 
+      "spawnpoint_id": "6ad7597b7df", 
+      "time": 1415
+    }, 
+    {
+      "latitude": -36.758013876790415, 
+      "longitude": 144.31132408916267, 
+      "spawnpoint_id": "6ad7590e605", 
+      "special": true, 
+      "time": 1611
+    }, 
+    {
+      "latitude": -36.74874910475291, 
+      "longitude": 144.28870589417792, 
+      "spawnpoint_id": "6ad759ba527", 
+      "time": 2614
+    }, 
+    {
+      "latitude": -36.759050689677196, 
+      "longitude": 144.30193462797632, 
+      "spawnpoint_id": "6ad759a0695", 
+      "time": 2661
+    }, 
+    {
+      "latitude": -36.756879717907665, 
+      "longitude": 144.2845243627921, 
+      "spawnpoint_id": "6ad75995ad5", 
+      "time": 73
+    }, 
+    {
+      "latitude": -36.75769100192599, 
+      "longitude": 144.28068437369694, 
+      "spawnpoint_id": "6ad759eb56d", 
+      "time": 2522
+    }, 
+    {
+      "latitude": -36.77162418784566, 
+      "longitude": 144.3059463538558, 
+      "spawnpoint_id": "6ad75979d47", 
+      "time": 979
+    }, 
+    {
+      "latitude": -36.75894118260501, 
+      "longitude": 144.2845243627921, 
+      "spawnpoint_id": "6ad759947a1", 
+      "time": 2579
+    }, 
+    {
+      "latitude": -36.75947237921376, 
+      "longitude": 144.31064118211, 
+      "spawnpoint_id": "6ad7590c303", 
+      "time": 917
+    }, 
+    {
+      "latitude": -36.75860356616182, 
+      "longitude": 144.31047045625718, 
+      "spawnpoint_id": "6ad7590e9cd", 
+      "time": 1419
+    }, 
+    {
+      "latitude": -36.75436199459419, 
+      "longitude": 144.28384168457225, 
+      "spawnpoint_id": "6ad759957ff", 
+      "time": 170
+    }, 
+    {
+      "latitude": -36.76124885967644, 
+      "longitude": 144.31858033637315, 
+      "spawnpoint_id": "6ad759115a3", 
+      "time": 3028
+    }, 
+    {
+      "latitude": -36.75715590053102, 
+      "longitude": 144.31653144700763, 
+      "spawnpoint_id": "6ad7591061b", 
+      "time": 310
+    }, 
+    {
+      "latitude": -36.76817191792079, 
+      "longitude": 144.31687292492822, 
+      "spawnpoint_id": "6ad7596c55b", 
+      "time": 341
+    }, 
+    {
+      "latitude": -36.77956742749679, 
+      "longitude": 144.28520704684576, 
+      "spawnpoint_id": "6ad75a23bff", 
+      "time": 2079
+    }, 
+    {
+      "latitude": -36.76985580807179, 
+      "longitude": 144.30850713512427, 
+      "spawnpoint_id": "6ad759712ab", 
+      "time": 3186
+    }, 
+    {
+      "latitude": -36.757335678693074, 
+      "longitude": 144.31234846066582, 
+      "spawnpoint_id": "6ad7590e4bd", 
+      "time": 819
+    }, 
+    {
+      "latitude": -36.762000114629984, 
+      "longitude": 144.31840959359056, 
+      "spawnpoint_id": "6ad75913e5d", 
+      "time": 2426
+    }, 
+    {
+      "latitude": -36.7587214053562, 
+      "longitude": 144.28153768865326, 
+      "spawnpoint_id": "6ad75993519", 
+      "time": 1702
+    }, 
+    {
+      "latitude": -36.77173849976162, 
+      "longitude": 144.31226309587322, 
+      "spawnpoint_id": "6ad7597048b", 
+      "time": 2953
+    }, 
+    {
+      "latitude": -36.760341055816994, 
+      "longitude": 144.28153768865326, 
+      "spawnpoint_id": "6ad75993295", 
+      "time": 3577
+    }, 
+    {
+      "latitude": -36.74497036184012, 
+      "longitude": 144.2753940244767, 
+      "spawnpoint_id": "6ad759c4261", 
+      "time": 1401
+    }, 
+    {
+      "latitude": -36.77597156785056, 
+      "longitude": 144.2974110082329, 
+      "spawnpoint_id": "6ad759872d1", 
+      "time": 3200
+    }, 
+    {
+      "latitude": -36.76854092280909, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad7596dbeb", 
+      "time": 251
+    }, 
+    {
+      "latitude": -36.758848400795785, 
+      "longitude": 144.318238851172, 
+      "spawnpoint_id": "6ad75910de9", 
+      "special": true, 
+      "time": 3060
+    }, 
+    {
+      "latitude": -36.757736706914166, 
+      "longitude": 144.2759059784368, 
+      "spawnpoint_id": "6ad759ec213", 
+      "time": 2192
+    }, 
+    {
+      "latitude": -36.774081814660924, 
+      "longitude": 144.30859249591114, 
+      "spawnpoint_id": "6ad7597a287", 
+      "special": true, 
+      "time": 3009
+    }, 
+    {
+      "latitude": -36.77415543728815, 
+      "longitude": 144.30859249591114, 
+      "spawnpoint_id": "6ad7597a285", 
+      "time": 1773
+    }, 
+    {
+      "latitude": -36.77427458621326, 
+      "longitude": 144.3059463538558, 
+      "spawnpoint_id": "6ad75979033", 
+      "time": 1406
+    }, 
+    {
+      "latitude": -36.759914540848726, 
+      "longitude": 144.28008705865219, 
+      "spawnpoint_id": "6ad759ecded", 
+      "time": 3436
+    }, 
+    {
+      "latitude": -36.75979658251779, 
+      "longitude": 144.28059904270276, 
+      "spawnpoint_id": "6ad759ecd05", 
+      "time": 482
+    }, 
+    {
+      "latitude": -36.76022379574528, 
+      "longitude": 144.27991639803142, 
+      "spawnpoint_id": "6ad759ed21b", 
+      "time": 1553
+    }, 
+    {
+      "latitude": -36.75783417178152, 
+      "longitude": 144.31550702198297, 
+      "spawnpoint_id": "6ad75910497", 
+      "time": 3106
+    }, 
+    {
+      "latitude": -36.75887779328254, 
+      "longitude": 144.31832422233578, 
+      "spawnpoint_id": "6ad75910deb", 
+      "time": 266
+    }, 
+    {
+      "latitude": -36.7694147599406, 
+      "longitude": 144.30722673424657, 
+      "spawnpoint_id": "6ad75976df9", 
+      "time": 3051
+    }, 
+    {
+      "latitude": -36.762000426312746, 
+      "longitude": 144.31798273822665, 
+      "spawnpoint_id": "6ad75913c2b", 
+      "time": 929
+    }, 
+    {
+      "latitude": -36.77969153711284, 
+      "longitude": 144.30884857881816, 
+      "spawnpoint_id": "6ad7597dd3f", 
+      "time": 1515
+    }, 
+    {
+      "latitude": -36.758406544145984, 
+      "longitude": 144.318238851172, 
+      "spawnpoint_id": "6ad75910c31", 
+      "time": 1529
+    }, 
+    {
+      "latitude": -36.78340940480275, 
+      "longitude": 144.2854630548699, 
+      "spawnpoint_id": "6ad75a3cb43", 
+      "time": 2393
+    }, 
+    {
+      "latitude": -36.72855866070968, 
+      "longitude": 144.3044952808476, 
+      "spawnpoint_id": "6ad758f6751", 
+      "time": 3566
+    }, 
+    {
+      "latitude": -36.77608462923557, 
+      "longitude": 144.30799497231484, 
+      "spawnpoint_id": "6ad759795a5", 
+      "time": 3337
+    }, 
+    {
+      "latitude": -36.76360311486302, 
+      "longitude": 144.32156839398954, 
+      "spawnpoint_id": "6ad75914371", 
+      "time": 3115
+    }, 
+    {
+      "latitude": -36.75827539492711, 
+      "longitude": 144.31636070859338, 
+      "spawnpoint_id": "6ad75910547", 
+      "time": 2152
+    }, 
+    {
+      "latitude": -36.76475321065125, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad75914847", 
+      "time": 2013
+    }, 
+    {
+      "latitude": -36.77527893680292, 
+      "longitude": 144.29903265381398, 
+      "spawnpoint_id": "6ad75981165", 
+      "time": 3154
+    }, 
+    {
+      "latitude": -36.770973327119634, 
+      "longitude": 144.31132408916267, 
+      "spawnpoint_id": "6ad75970551", 
+      "time": 605
+    }, 
+    {
+      "latitude": -36.7574659613116, 
+      "longitude": 144.31550702198297, 
+      "spawnpoint_id": "6ad75910465", 
+      "time": 1724
+    }, 
+    {
+      "latitude": -36.77265533971796, 
+      "longitude": 144.30509277831086, 
+      "spawnpoint_id": "6ad759784f7", 
+      "time": 938
+    }, 
+    {
+      "latitude": -36.764022396436104, 
+      "longitude": 144.31166554487388, 
+      "spawnpoint_id": "6ad75972d31", 
+      "time": 3488
+    }, 
+    {
+      "latitude": -36.75923335584604, 
+      "longitude": 144.31550702198297, 
+      "spawnpoint_id": "6ad75911be5", 
+      "special": true, 
+      "time": 1988
+    }, 
+    {
+      "latitude": -36.76212273127328, 
+      "longitude": 144.31149481683622, 
+      "spawnpoint_id": "6ad7590d1cb", 
+      "time": 1053
+    }, 
+    {
+      "latitude": -36.756262291343035, 
+      "longitude": 144.28187901718846, 
+      "spawnpoint_id": "6ad75994d9f", 
+      "time": 493
+    }, 
+    {
+      "latitude": -36.78037224537906, 
+      "longitude": 144.3009957424607, 
+      "spawnpoint_id": "6ad75a2aed7", 
+      "time": 2992
+    }, 
+    {
+      "latitude": -36.77276976099437, 
+      "longitude": 144.31140945295394, 
+      "spawnpoint_id": "6ad759707cf", 
+      "time": 970
+    }, 
+    {
+      "latitude": -36.76366189790348, 
+      "longitude": 144.32173914350577, 
+      "spawnpoint_id": "6ad75914369", 
+      "time": 3382
+    }, 
+    {
+      "latitude": -36.7569255121152, 
+      "longitude": 144.28017238909933, 
+      "spawnpoint_id": "6ad759eb441", 
+      "time": 2575
+    }, 
+    {
+      "latitude": -36.76004753711217, 
+      "longitude": 144.2785511261944, 
+      "spawnpoint_id": "6ad759ed07b", 
+      "time": 3409
+    }, 
+    {
+      "latitude": -36.77836953982257, 
+      "longitude": 144.30201998175147, 
+      "spawnpoint_id": "6ad75980167", 
+      "time": 3046
+    }, 
+    {
+      "latitude": -36.77486396728297, 
+      "longitude": 144.30509277831086, 
+      "spawnpoint_id": "6ad75978dcb", 
+      "time": 1513
+    }, 
+    {
+      "latitude": -36.776368376398764, 
+      "longitude": 144.29920335526177, 
+      "spawnpoint_id": "6ad75980e15", 
+      "time": 3328
+    }, 
+    {
+      "latitude": -36.772728961637156, 
+      "longitude": 144.30509277831086, 
+      "spawnpoint_id": "6ad759784f9", 
+      "time": 629
+    }, 
+    {
+      "latitude": -36.758411983759984, 
+      "longitude": 144.28213501454712, 
+      "spawnpoint_id": "6ad75994a75", 
+      "time": 2181
+    }, 
+    {
+      "latitude": -36.748277444757576, 
+      "longitude": 144.28947395434258, 
+      "spawnpoint_id": "6ad759baf5d", 
+      "time": 127
+    }, 
+    {
+      "latitude": -36.77330354550627, 
+      "longitude": 144.30440992443138, 
+      "spawnpoint_id": "6ad75978f53", 
+      "time": 1422
+    }, 
+    {
+      "latitude": -36.76083544545626, 
+      "longitude": 144.31994629173784, 
+      "spawnpoint_id": "6ad75916c83", 
+      "time": 219
+    }, 
+    {
+      "latitude": -36.755938847501945, 
+      "longitude": 144.28051371179973, 
+      "spawnpoint_id": "6ad759eb2f7", 
+      "time": 26
+    }, 
+    {
+      "latitude": -36.76378853603436, 
+      "longitude": 144.30884857881816, 
+      "spawnpoint_id": "6ad759735bf", 
+      "special": true, 
+      "time": 683
+    }, 
+    {
+      "latitude": -36.76488655640514, 
+      "longitude": 144.31866570790095, 
+      "spawnpoint_id": "6ad7591368b", 
+      "time": 2967
+    }, 
+    {
+      "latitude": -36.76363250640935, 
+      "longitude": 144.32165376870216, 
+      "spawnpoint_id": "6ad7591436f", 
+      "time": 1366
+    }, 
+    {
+      "latitude": -36.75649826027453, 
+      "longitude": 144.28085503595884, 
+      "spawnpoint_id": "6ad759eb33f", 
+      "time": 795
+    }, 
+    {
+      "latitude": -36.76113374104689, 
+      "longitude": 144.31482407924778, 
+      "spawnpoint_id": "6ad75912117", 
+      "time": 366
+    }, 
+    {
+      "latitude": -36.7651583942319, 
+      "longitude": 144.30833641382358, 
+      "spawnpoint_id": "6ad759747fd", 
+      "time": 645
+    }, 
+    {
+      "latitude": -36.74577163736862, 
+      "longitude": 144.2933143658858, 
+      "spawnpoint_id": "6ad759ae353", 
+      "time": 1142
+    }, 
+    {
+      "latitude": -36.745727403418954, 
+      "longitude": 144.2933997104603, 
+      "spawnpoint_id": "6ad759ae357", 
+      "time": 1234
+    }, 
+    {
+      "latitude": -36.75643847154897, 
+      "longitude": 144.28324434591565, 
+      "spawnpoint_id": "6ad7599502b", 
+      "time": 1438
+    }, 
+    {
+      "latitude": -36.748628969725154, 
+      "longitude": 144.293058332709, 
+      "spawnpoint_id": "6ad759a55b5", 
+      "time": 3422
+    }, 
+    {
+      "latitude": -36.74883667440553, 
+      "longitude": 144.29024202188896, 
+      "spawnpoint_id": "6ad759baef7", 
+      "time": 2860
+    }, 
+    {
+      "latitude": -36.74793867539965, 
+      "longitude": 144.28955929481654, 
+      "spawnpoint_id": "6ad759ba8b1", 
+      "time": 3530
+    }, 
+    {
+      "latitude": -36.7760242650389, 
+      "longitude": 144.31081190832697, 
+      "spawnpoint_id": "6ad7597ba5f", 
+      "special": true, 
+      "time": 1258
+    }, 
+    {
+      "latitude": -36.782270519791005, 
+      "longitude": 144.30330029930775, 
+      "spawnpoint_id": "6ad75bd4d5f", 
+      "time": 3290
+    }, 
+    {
+      "latitude": -36.75581921439128, 
+      "longitude": 144.31158018080953, 
+      "spawnpoint_id": "6ad7590fa3d", 
+      "time": 1693
+    }, 
+    {
+      "latitude": -36.771607535628966, 
+      "longitude": 144.3095314705761, 
+      "spawnpoint_id": "6ad75970bed", 
+      "special": true, 
+      "time": 3006
+    }, 
+    {
+      "latitude": -36.76067987495166, 
+      "longitude": 144.2810256985854, 
+      "spawnpoint_id": "6ad759ed2b7", 
+      "time": 923
+    }, 
+    {
+      "latitude": -36.77169598112422, 
+      "longitude": 144.30936074709035, 
+      "spawnpoint_id": "6ad75970bbd", 
+      "time": 1832
+    }, 
+    {
+      "latitude": -36.7711958938979, 
+      "longitude": 144.30833641382358, 
+      "spawnpoint_id": "6ad759774b1", 
+      "time": 982
+    }, 
+    {
+      "latitude": -36.77122529721782, 
+      "longitude": 144.30842177442838, 
+      "spawnpoint_id": "6ad759774b3", 
+      "time": 3096
+    }, 
+    {
+      "latitude": -36.76747924475649, 
+      "longitude": 144.31764125557365, 
+      "spawnpoint_id": "6ad7596ceeb", 
+      "time": 707
+    }, 
+    {
+      "latitude": -36.75933063977577, 
+      "longitude": 144.30167856719729, 
+      "spawnpoint_id": "6ad759a0155", 
+      "time": 2281
+    }, 
+    {
+      "latitude": -36.760945337241424, 
+      "longitude": 144.279660407784, 
+      "spawnpoint_id": "6ad759ed15b", 
+      "time": 2116
+    }, 
+    {
+      "latitude": -36.77368290358903, 
+      "longitude": 144.31106799833515, 
+      "spawnpoint_id": "6ad7597a7d3", 
+      "time": 2421
+    }, 
+    {
+      "latitude": -36.75724471814865, 
+      "longitude": 144.3159338641505, 
+      "spawnpoint_id": "6ad7591042d", 
+      "time": 305
+    }, 
+    {
+      "latitude": -36.77185635285699, 
+      "longitude": 144.31217773117166, 
+      "spawnpoint_id": "6ad7597045d", 
+      "time": 764
+    }, 
+    {
+      "latitude": -36.759840497995235, 
+      "longitude": 144.28136702493262, 
+      "spawnpoint_id": "6ad75993325", 
+      "time": 2545
+    }, 
+    {
+      "latitude": -36.759130320611376, 
+      "longitude": 144.3154216538225, 
+      "spawnpoint_id": "6ad75911bf1", 
+      "time": 141
+    }, 
+    {
+      "latitude": -36.77678498195769, 
+      "longitude": 144.2858897367331, 
+      "spawnpoint_id": "6ad75a21255", 
+      "time": 1721
+    }, 
+    {
+      "latitude": -36.76092362090283, 
+      "longitude": 144.3202024109622, 
+      "spawnpoint_id": "6ad75916c79", 
+      "time": 1973
+    }, 
+    {
+      "latitude": -36.760252797921424, 
+      "longitude": 144.28128169320908, 
+      "spawnpoint_id": "6ad759932b7", 
+      "time": 2663
+    }, 
+    {
+      "latitude": -36.744240006894856, 
+      "longitude": 144.29314367701014, 
+      "spawnpoint_id": "6ad759ae13f", 
+      "time": 1060
+    }, 
+    {
+      "latitude": -36.780694519957606, 
+      "longitude": 144.3049220642946, 
+      "spawnpoint_id": "6ad75bd5637", 
+      "time": 3345
+    }, 
+    {
+      "latitude": -36.760108952073374, 
+      "longitude": 144.3054342074361, 
+      "spawnpoint_id": "6ad7590ae37", 
+      "time": 2159
+    }, 
+    {
+      "latitude": -36.77835992173029, 
+      "longitude": 144.28682844485314, 
+      "spawnpoint_id": "6ad75a26ad9", 
+      "time": 2139
+    }, 
+    {
+      "latitude": -36.757264054639386, 
+      "longitude": 144.28051371179973, 
+      "spawnpoint_id": "6ad759eb4ff", 
+      "time": 2682
+    }, 
+    {
+      "latitude": -36.76451650098727, 
+      "longitude": 144.3212268960489, 
+      "spawnpoint_id": "6ad759145bd", 
+      "time": 753
+    }, 
+    {
+      "latitude": -36.77016718680463, 
+      "longitude": 144.3044952808476, 
+      "spawnpoint_id": "6ad7597792f", 
+      "time": 865
+    }, 
+    {
+      "latitude": -36.75885029973325, 
+      "longitude": 144.31567775857692, 
+      "spawnpoint_id": "6ad75911ba1", 
+      "time": 2381
+    }, 
+    {
+      "latitude": -36.75693233824101, 
+      "longitude": 144.31994629173784, 
+      "spawnpoint_id": "6ad75919fb1", 
+      "time": 585
+    }, 
+    {
+      "latitude": -36.77121071223891, 
+      "longitude": 144.30816569288712, 
+      "spawnpoint_id": "6ad759774bf", 
+      "time": 2985
+    }, 
+    {
+      "latitude": -36.75978151488759, 
+      "longitude": 144.28162302065027, 
+      "spawnpoint_id": "6ad75993313", 
+      "time": 548
+    }, 
+    {
+      "latitude": -36.77502621632728, 
+      "longitude": 144.3044952808476, 
+      "spawnpoint_id": "6ad75978c87", 
+      "time": 1382
+    }, 
+    {
+      "latitude": -36.75659383886626, 
+      "longitude": 144.3196048007127, 
+      "spawnpoint_id": "6ad75919f77", 
+      "time": 626
+    }, 
+    {
+      "latitude": -36.77249127098142, 
+      "longitude": 144.30910466254454, 
+      "spawnpoint_id": "6ad7597a07f", 
+      "time": 1274
+    }, 
+    {
+      "latitude": -36.75840354539697, 
+      "longitude": 144.32208064363013, 
+      "spawnpoint_id": "6ad7591778b", 
+      "time": 1265
+    }, 
+    {
+      "latitude": -36.75750925911702, 
+      "longitude": 144.31670218578589, 
+      "spawnpoint_id": "6ad75910f57", 
+      "time": 982
+    }, 
+    {
+      "latitude": -36.78191690178191, 
+      "longitude": 144.30398314371632, 
+      "spawnpoint_id": "6ad75bd524b", 
+      "time": 3205
+    }, 
+    {
+      "latitude": -36.780283843153235, 
+      "longitude": 144.3011664480984, 
+      "spawnpoint_id": "6ad75a2a933", 
+      "time": 3528
+    }, 
+    {
+      "latitude": -36.774288314347835, 
+      "longitude": 144.30790961216525, 
+      "spawnpoint_id": "6ad7597982f", 
+      "time": 112
+    }, 
+    {
+      "latitude": -36.7724336009024, 
+      "longitude": 144.3067999385066, 
+      "spawnpoint_id": "6ad75979c39", 
+      "time": 3327
+    }, 
+    {
+      "latitude": -36.758442830844125, 
+      "longitude": 144.2779538271057, 
+      "spawnpoint_id": "6ad759ec5c7", 
+      "time": 1672
+    }, 
+    {
+      "latitude": -36.75430384249997, 
+      "longitude": 144.28196434955018, 
+      "spawnpoint_id": "6ad75995453", 
+      "special": true, 
+      "time": 2032
+    }, 
+    {
+      "latitude": -36.76580521493344, 
+      "longitude": 144.31021436816076, 
+      "spawnpoint_id": "6ad75973a75", 
+      "time": 656
+    }, 
+    {
+      "latitude": -36.75885325101116, 
+      "longitude": 144.28341501364744, 
+      "spawnpoint_id": "6ad75994827", 
+      "time": 1167
+    }, 
+    {
+      "latitude": -36.76207849396241, 
+      "longitude": 144.31158018080953, 
+      "spawnpoint_id": "6ad7590d04b", 
+      "time": 512
+    }, 
+    {
+      "latitude": -36.766596213052864, 
+      "longitude": 144.31678755531155, 
+      "spawnpoint_id": "6ad7596cdf3", 
+      "time": 387
+    }, 
+    {
+      "latitude": -36.75839719811875, 
+      "longitude": 144.28230567990872, 
+      "spawnpoint_id": "6ad75994a0f", 
+      "time": 649
+    }, 
+    {
+      "latitude": -36.77811698103809, 
+      "longitude": 144.30705601567743, 
+      "spawnpoint_id": "6ad7597eed3", 
+      "time": 3577
+    }, 
+    {
+      "latitude": -36.75670449525795, 
+      "longitude": 144.28059904270276, 
+      "spawnpoint_id": "6ad759eb37d", 
+      "time": 842
+    }, 
+    {
+      "latitude": -36.75795577104501, 
+      "longitude": 144.28145235674734, 
+      "spawnpoint_id": "6ad75994abf", 
+      "time": 1678
+    }, 
+    {
+      "latitude": -36.75663087265128, 
+      "longitude": 144.28059904270276, 
+      "spawnpoint_id": "6ad759eb37b", 
+      "time": 2286
+    }, 
+    {
+      "latitude": -36.77531649923434, 
+      "longitude": 144.3126045555898, 
+      "spawnpoint_id": "6ad7597ac29", 
+      "time": 340
+    }, 
+    {
+      "latitude": -36.763523406280015, 
+      "longitude": 144.30893393996922, 
+      "spawnpoint_id": "6ad75973509", 
+      "time": 262
+    }, 
+    {
+      "latitude": -36.75640953867458, 
+      "longitude": 144.28187901718846, 
+      "spawnpoint_id": "6ad75994da7", 
+      "special": true, 
+      "time": 2884
+    }, 
+    {
+      "latitude": -36.77042927534714, 
+      "longitude": 144.3099582808837, 
+      "spawnpoint_id": "6ad75970e03", 
+      "time": 3520
+    }, 
+    {
+      "latitude": -36.75755414322196, 
+      "longitude": 144.31576312701043, 
+      "spawnpoint_id": "6ad7591045b", 
+      "time": 799
+    }, 
+    {
+      "latitude": -36.7593418838388, 
+      "longitude": 144.3074828127832, 
+      "spawnpoint_id": "6ad7590b913", 
+      "time": 1791
+    }, 
+    {
+      "latitude": -36.763095910159294, 
+      "longitude": 144.30961683245556, 
+      "spawnpoint_id": "6ad7590cb4f", 
+      "time": 3338
+    }, 
+    {
+      "latitude": -36.75759839158063, 
+      "longitude": 144.31567775857692, 
+      "spawnpoint_id": "6ad7591045f", 
+      "time": 913
+    }, 
+    {
+      "latitude": -36.75879441605461, 
+      "longitude": 144.28324434591565, 
+      "spawnpoint_id": "6ad7599482b", 
+      "time": 2663
+    }, 
+    {
+      "latitude": -36.77708611385728, 
+      "longitude": 144.3074828127832, 
+      "spawnpoint_id": "6ad7597eb0d", 
+      "special": true, 
+      "time": 1688
+    }, 
+    {
+      "latitude": -36.76271097206067, 
+      "longitude": 144.31277528599426, 
+      "spawnpoint_id": "6ad7590d6c5", 
+      "time": 3408
+    }, 
+    {
+      "latitude": -36.77373004446813, 
+      "longitude": 144.3054342074361, 
+      "spawnpoint_id": "6ad75978fed", 
+      "time": 1101
+    }, 
+    {
+      "latitude": -36.77715973302036, 
+      "longitude": 144.3074828127832, 
+      "spawnpoint_id": "6ad7597eb0b", 
+      "time": 180
+    }, 
+    {
+      "latitude": -36.75867172302745, 
+      "longitude": 144.3181534800992, 
+      "spawnpoint_id": "6ad75910ddb", 
+      "time": 2858
+    }, 
+    {
+      "latitude": -36.782025911463705, 
+      "longitude": 144.28443902769556, 
+      "spawnpoint_id": "6ad75a2324f", 
+      "time": 2158
+    }, 
+    {
+      "latitude": -36.77791249977189, 
+      "longitude": 144.30347100986347, 
+      "spawnpoint_id": "6ad7597f847", 
+      "time": 1001
+    }, 
+    {
+      "latitude": -36.776777247196556, 
+      "longitude": 144.3067999385066, 
+      "spawnpoint_id": "6ad7597ec93", 
+      "time": 46
+    }, 
+    {
+      "latitude": -36.77823637246264, 
+      "longitude": 144.30355636527796, 
+      "spawnpoint_id": "6ad7597f8f9", 
+      "time": 3445
+    }, 
+    {
+      "latitude": -36.755525888257814, 
+      "longitude": 144.28230567990872, 
+      "spawnpoint_id": "6ad759953cd", 
+      "time": 97
+    }, 
+    {
+      "latitude": -36.76334344118967, 
+      "longitude": 144.31397040902053, 
+      "spawnpoint_id": "6ad759129e3", 
+      "time": 27
+    }, 
+    {
+      "latitude": -36.764566404566395, 
+      "longitude": 144.31303138228367, 
+      "spawnpoint_id": "6ad75972b3b", 
+      "time": 223
+    }, 
+    {
+      "latitude": -36.77215255091266, 
+      "longitude": 144.30919002396877, 
+      "spawnpoint_id": "6ad75970a5f", 
+      "time": 1299
+    }, 
+    {
+      "latitude": -36.755305808893056, 
+      "longitude": 144.28017238909933, 
+      "spawnpoint_id": "6ad759ead8d", 
+      "time": 3032
+    }, 
+    {
+      "latitude": -36.76110652680999, 
+      "longitude": 144.28204968200308, 
+      "spawnpoint_id": "6ad75992dbd", 
+      "time": 1325
+    }, 
+    {
+      "latitude": -36.7790330967357, 
+      "longitude": 144.2994594081166, 
+      "spawnpoint_id": "6ad75a2a705", 
+      "time": 1
+    }, 
+    {
+      "latitude": -36.76577633166041, 
+      "longitude": 144.30927538548403, 
+      "spawnpoint_id": "6ad759739b7", 
+      "time": 2553
+    }, 
+    {
+      "latitude": -36.757558542082705, 
+      "longitude": 144.28051371179973, 
+      "spawnpoint_id": "6ad759eb50b", 
+      "time": 707
+    }, 
+    {
+      "latitude": -36.76580573266466, 
+      "longitude": 144.30936074709035, 
+      "spawnpoint_id": "6ad759739b9", 
+      "time": 3380
+    }, 
+    {
+      "latitude": -36.77235459301996, 
+      "longitude": 144.31618997054318, 
+      "spawnpoint_id": "6ad7596e53b", 
+      "time": 3591
+    }, 
+    {
+      "latitude": -36.778441061295, 
+      "longitude": 144.30671457963174, 
+      "spawnpoint_id": "6ad7597ef6b", 
+      "time": 1184
+    }, 
+    {
+      "latitude": -36.755481843557995, 
+      "longitude": 144.28196434955018, 
+      "spawnpoint_id": "6ad75995253", 
+      "time": 38
+    }, 
+    {
+      "latitude": -36.780474044731534, 
+      "longitude": 144.30406849967721, 
+      "spawnpoint_id": "6ad75bd55c1", 
+      "time": 3024
+    }, 
+    {
+      "latitude": -36.7453438658033, 
+      "longitude": 144.29442385246125, 
+      "spawnpoint_id": "6ad759ae5bf", 
+      "time": 1127
+    }, 
+    {
+      "latitude": -36.755685250363356, 
+      "longitude": 144.31354357732025, 
+      "spawnpoint_id": "6ad7590ffb5", 
+      "time": 1792
+    }, 
+    {
+      "latitude": -36.76273892506584, 
+      "longitude": 144.3149948143855, 
+      "spawnpoint_id": "6ad759128a1", 
+      "time": 2138
+    }, 
+    {
+      "latitude": -36.72846902824395, 
+      "longitude": 144.3059463538558, 
+      "spawnpoint_id": "6ad758f42db", 
+      "time": 3432
+    }, 
+    {
+      "latitude": -36.76216098497041, 
+      "longitude": 144.31994629173784, 
+      "spawnpoint_id": "6ad7591402f", 
+      "time": 3548
+    }, 
+    {
+      "latitude": -36.772005301137064, 
+      "longitude": 144.30919002396877, 
+      "spawnpoint_id": "6ad75970a57", 
+      "time": 1932
+    }, 
+    {
+      "latitude": -36.77288761023595, 
+      "longitude": 144.31132408916267, 
+      "spawnpoint_id": "6ad759707dd", 
+      "time": 1571
+    }, 
+    {
+      "latitude": -36.762103769105245, 
+      "longitude": 144.31764125557365, 
+      "spawnpoint_id": "6ad75913c41", 
+      "time": 1849
+    }, 
+    {
+      "latitude": -36.75992932465628, 
+      "longitude": 144.31004364321836, 
+      "spawnpoint_id": "6ad7590c40f", 
+      "time": 655
+    }, 
+    {
+      "latitude": -36.75234497930721, 
+      "longitude": 144.30919002396877, 
+      "spawnpoint_id": "6ad75905c2d", 
+      "time": 1157
+    }, 
+    {
+      "latitude": -36.767023176432254, 
+      "longitude": 144.31695829463592, 
+      "spawnpoint_id": "6ad7596ce0d", 
+      "time": 3383
+    }, 
+    {
+      "latitude": -36.75660836560466, 
+      "longitude": 144.31986091884508, 
+      "spawnpoint_id": "6ad75919f0f", 
+      "time": 1130
+    }, 
+    {
+      "latitude": -36.765019285026774, 
+      "longitude": 144.31840959359056, 
+      "spawnpoint_id": "6ad7591369f", 
+      "time": 3181
+    }, 
+    {
+      "latitude": -36.761017331371306, 
+      "longitude": 144.31277528599426, 
+      "spawnpoint_id": "6ad7590d943", 
+      "time": 1995
+    }, 
+    {
+      "latitude": -36.783026896049876, 
+      "longitude": 144.2843536926902, 
+      "spawnpoint_id": "6ad75a3cd3d", 
+      "time": 1666
+    }, 
+    {
+      "latitude": -36.75633638153557, 
+      "longitude": 144.28059904270276, 
+      "spawnpoint_id": "6ad759eb30f", 
+      "time": 2697
+    }, 
+    {
+      "latitude": -36.76596318671566, 
+      "longitude": 144.316446077755, 
+      "spawnpoint_id": "6ad7596d291", 
+      "time": 48
+    }, 
+    {
+      "latitude": -36.78047044053974, 
+      "longitude": 144.31175090902929, 
+      "spawnpoint_id": "6ad7597d029", 
+      "time": 1544
+    }, 
+    {
+      "latitude": -36.77026695168314, 
+      "longitude": 144.31055581913807, 
+      "spawnpoint_id": "6ad7597104b", 
+      "time": 1761
+    }, 
+    {
+      "latitude": -36.75571813061588, 
+      "longitude": 144.28008705865219, 
+      "spawnpoint_id": "6ad759eb23f", 
+      "time": 2252
+    }, 
+    {
+      "latitude": -36.760732411819376, 
+      "longitude": 144.31986091884508, 
+      "spawnpoint_id": "6ad75916c9b", 
+      "time": 3106
+    }, 
+    {
+      "latitude": -36.76077666156425, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad75916c9f", 
+      "time": 1170
+    }, 
+    {
+      "latitude": -36.780004350870854, 
+      "longitude": 144.30056897996047, 
+      "spawnpoint_id": "6ad75a2a8b7", 
+      "time": 2862
+    }, 
+    {
+      "latitude": -36.756836648115076, 
+      "longitude": 144.28162302065027, 
+      "spawnpoint_id": "6ad75994c93", 
+      "time": 2428
+    }, 
+    {
+      "latitude": -36.75771628188978, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad7591048d", 
+      "special": true, 
+      "time": 360
+    }, 
+    {
+      "latitude": -36.75845269926088, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad75911b41", 
+      "time": 2241
+    }, 
+    {
+      "latitude": -36.75764263977344, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad7591048b", 
+      "time": 1846
+    }, 
+    {
+      "latitude": -36.764901405304585, 
+      "longitude": 144.31849496493635, 
+      "spawnpoint_id": "6ad75913691", 
+      "time": 801
+    }, 
+    {
+      "latitude": -36.76221230256329, 
+      "longitude": 144.30961683245556, 
+      "spawnpoint_id": "6ad7590cbef", 
+      "time": 1045
+    }, 
+    {
+      "latitude": -36.75830541633828, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad75911b49", 
+      "time": 2617
+    }, 
+    {
+      "latitude": -36.76065877003343, 
+      "longitude": 144.31986091884508, 
+      "spawnpoint_id": "6ad75916c91", 
+      "time": 402
+    }, 
+    {
+      "latitude": -36.75311020374606, 
+      "longitude": 144.31012900564403, 
+      "spawnpoint_id": "6ad7590593f", 
+      "time": 1280
+    }, 
+    {
+      "latitude": -36.76222659454316, 
+      "longitude": 144.31029973076855, 
+      "spawnpoint_id": "6ad7590ce9d", 
+      "time": 911
+    }, 
+    {
+      "latitude": -36.75902697610031, 
+      "longitude": 144.31576312701043, 
+      "spawnpoint_id": "6ad75911bbb", 
+      "time": 1840
+    }, 
+    {
+      "latitude": -36.774378033001895, 
+      "longitude": 144.30517813545558, 
+      "spawnpoint_id": "6ad75978e67", 
+      "time": 927
+    }, 
+    {
+      "latitude": -36.7711320198816, 
+      "longitude": 144.31670218578589, 
+      "spawnpoint_id": "6ad7596e89d", 
+      "time": 1182
+    }, 
+    {
+      "latitude": -36.770252127068055, 
+      "longitude": 144.31072654517294, 
+      "spawnpoint_id": "6ad75971045", 
+      "time": 3133
+    }, 
+    {
+      "latitude": -36.75792620073809, 
+      "longitude": 144.2817936849179, 
+      "spawnpoint_id": "6ad75994af7", 
+      "time": 4
+    }, 
+    {
+      "latitude": -36.765361261522564, 
+      "longitude": 144.31362894347825, 
+      "spawnpoint_id": "6ad75972a69", 
+      "time": 2704
+    }, 
+    {
+      "latitude": -36.75655091696178, 
+      "longitude": 144.31798273822665, 
+      "spawnpoint_id": "6ad7591a753", 
+      "time": 2832
+    }, 
+    {
+      "latitude": -36.76284311800185, 
+      "longitude": 144.31337284527726, 
+      "spawnpoint_id": "6ad7590d651", 
+      "time": 1151
+    }, 
+    {
+      "latitude": -36.75873542249452, 
+      "longitude": 144.31149481683622, 
+      "spawnpoint_id": "6ad7590e7c7", 
+      "time": 746
+    }, 
+    {
+      "latitude": -36.76388281790768, 
+      "longitude": 144.32173914350577, 
+      "spawnpoint_id": "6ad7591449f", 
+      "time": 3375
+    }, 
+    {
+      "latitude": -36.770267198056885, 
+      "longitude": 144.31012900564403, 
+      "spawnpoint_id": "6ad759711e9", 
+      "time": 93
+    }, 
+    {
+      "latitude": -36.78327642071458, 
+      "longitude": 144.28785250265284, 
+      "spawnpoint_id": "6ad75a24b85", 
+      "time": 1784
+    }, 
+    {
+      "latitude": -36.76062060892372, 
+      "longitude": 144.28213501454712, 
+      "spawnpoint_id": "6ad7599326d", 
+      "time": 2266
+    }, 
+    {
+      "latitude": -36.75682318741019, 
+      "longitude": 144.2779538271057, 
+      "spawnpoint_id": "6ad759eb86f", 
+      "time": 648
+    }, 
+    {
+      "latitude": -36.757065101446926, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75919fe9", 
+      "time": 581
+    }, 
+    {
+      "latitude": -36.76352010973164, 
+      "longitude": 144.31405577563365, 
+      "spawnpoint_id": "6ad759129f9", 
+      "special": true, 
+      "time": 433
+    }, 
+    {
+      "latitude": -36.77890489120208, 
+      "longitude": 144.28563372734175, 
+      "spawnpoint_id": "6ad75a23e43", 
+      "time": 2913
+    }, 
+    {
+      "latitude": -36.773653501417925, 
+      "longitude": 144.31098263490807, 
+      "spawnpoint_id": "6ad7597a7cd", 
+      "time": 1459
+    }, 
+    {
+      "latitude": -36.779536834767825, 
+      "longitude": 144.28981531678522, 
+      "spawnpoint_id": "6ad75a267bb", 
+      "time": 2032
+    }, 
+    {
+      "latitude": -36.7459203699768, 
+      "longitude": 144.29075407102067, 
+      "spawnpoint_id": "6ad759b03f7", 
+      "time": 3016
+    }, 
+    {
+      "latitude": -36.76359703899868, 
+      "longitude": 144.30893393996922, 
+      "spawnpoint_id": "6ad759735a7", 
+      "time": 355
+    }, 
+    {
+      "latitude": -36.759015889738954, 
+      "longitude": 144.28153768865326, 
+      "spawnpoint_id": "6ad759934e9", 
+      "time": 1847
+    }, 
+    {
+      "latitude": -36.76242615386063, 
+      "longitude": 144.31986091884508, 
+      "spawnpoint_id": "6ad75914045", 
+      "time": 1532
+    }, 
+    {
+      "latitude": -36.74559495040408, 
+      "longitude": 144.29322902140242, 
+      "spawnpoint_id": "6ad759ae345", 
+      "time": 1733
+    }, 
+    {
+      "latitude": -36.774939726390016, 
+      "longitude": 144.30039827559793, 
+      "spawnpoint_id": "6ad759819db", 
+      "time": 900
+    }, 
+    {
+      "latitude": -36.774983933215786, 
+      "longitude": 144.3003129235533, 
+      "spawnpoint_id": "6ad759819df", 
+      "time": 2941
+    }, 
+    {
+      "latitude": -36.756902947505914, 
+      "longitude": 144.31986091884508, 
+      "spawnpoint_id": "6ad75919fbb", 
+      "time": 2913
+    }, 
+    {
+      "latitude": -36.772815402739866, 
+      "longitude": 144.3087632177581, 
+      "spawnpoint_id": "6ad7597a037", 
+      "time": 1169
+    }, 
+    {
+      "latitude": -36.77278599918224, 
+      "longitude": 144.3086778567891, 
+      "spawnpoint_id": "6ad7597a031", 
+      "time": 3294
+    }, 
+    {
+      "latitude": -36.74814338885994, 
+      "longitude": 144.29229023809876, 
+      "spawnpoint_id": "6ad759a5539", 
+      "time": 2661
+    }, 
+    {
+      "latitude": -36.77827144187657, 
+      "longitude": 144.28742581030798, 
+      "spawnpoint_id": "6ad75a26ba3", 
+      "time": 1664
+    }, 
+    {
+      "latitude": -36.76614717053332, 
+      "longitude": 144.30458063735486, 
+      "spawnpoint_id": "6ad75975df7", 
+      "time": 131
+    }, 
+    {
+      "latitude": -36.77862163999915, 
+      "longitude": 144.2974110082329, 
+      "spawnpoint_id": "6ad75a29f65", 
+      "time": 3453
+    }, 
+    {
+      "latitude": -36.759678328976854, 
+      "longitude": 144.28196434955018, 
+      "spawnpoint_id": "6ad75993385", 
+      "time": 564
+    }, 
+    {
+      "latitude": -36.75867362312762, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad75911b73", 
+      "time": 2934
+    }, 
+    {
+      "latitude": -36.756639421772114, 
+      "longitude": 144.31781199671812, 
+      "spawnpoint_id": "6ad759109e3", 
+      "time": 64
+    }, 
+    {
+      "latitude": -36.75773082166144, 
+      "longitude": 144.31584849553496, 
+      "spawnpoint_id": "6ad759104f9", 
+      "time": 2670
+    }, 
+    {
+      "latitude": -36.75863238641789, 
+      "longitude": 144.31140945295394, 
+      "spawnpoint_id": "6ad7590e7cf", 
+      "time": 1315
+    }, 
+    {
+      "latitude": -36.757672033788275, 
+      "longitude": 144.31567775857692, 
+      "spawnpoint_id": "6ad759104f5", 
+      "time": 2300
+    }, 
+    {
+      "latitude": -36.756865094175566, 
+      "longitude": 144.28426835777597, 
+      "spawnpoint_id": "6ad75994535", 
+      "time": 1715
+    }, 
+    {
+      "latitude": -36.758235374009324, 
+      "longitude": 144.31047045625718, 
+      "spawnpoint_id": "6ad7590e9ab", 
+      "special": true, 
+      "time": 1730
+    }, 
+    {
+      "latitude": -36.76290276280898, 
+      "longitude": 144.31226309587322, 
+      "spawnpoint_id": "6ad7590d15f", 
+      "time": 2705
+    }, 
+    {
+      "latitude": -36.74916062571235, 
+      "longitude": 144.29032736318308, 
+      "spawnpoint_id": "6ad759bae41", 
+      "time": 226
+    }, 
+    {
+      "latitude": -36.77350625236089, 
+      "longitude": 144.31098263490807, 
+      "spawnpoint_id": "6ad7597a7c5", 
+      "time": 3012
+    }, 
+    {
+      "latitude": -36.747495471901225, 
+      "longitude": 144.2921195514099, 
+      "spawnpoint_id": "6ad759affe1", 
+      "time": 2141
+    }, 
+    {
+      "latitude": -36.774792674932385, 
+      "longitude": 144.29997151628558, 
+      "spawnpoint_id": "6ad7598176d", 
+      "time": 1093
+    }, 
+    {
+      "latitude": -36.748159583132875, 
+      "longitude": 144.28955929481654, 
+      "spawnpoint_id": "6ad759baf4f", 
+      "time": 3545
+    }, 
+    {
+      "latitude": -36.76202981993951, 
+      "longitude": 144.31806810911743, 
+      "spawnpoint_id": "6ad75913e81", 
+      "special": true, 
+      "time": 2680
+    }, 
+    {
+      "latitude": -36.78501459350261, 
+      "longitude": 144.28094036722655, 
+      "spawnpoint_id": "6ad75a1621b", 
+      "time": 1882
+    }, 
+    {
+      "latitude": -36.76972477146078, 
+      "longitude": 144.30577563801833, 
+      "spawnpoint_id": "6ad7597709d", 
+      "time": 881
+    }, 
+    {
+      "latitude": -36.76092394474661, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad75916b67", 
+      "time": 2664
+    }, 
+    {
+      "latitude": -36.77355186550271, 
+      "longitude": 144.30833641382358, 
+      "spawnpoint_id": "6ad759798a5", 
+      "time": 1291
+    }, 
+    {
+      "latitude": -36.76096512049607, 
+      "longitude": 144.30193462797632, 
+      "spawnpoint_id": "6ad7599ff3d", 
+      "time": 3309
+    }, 
+    {
+      "latitude": -36.75390662605679, 
+      "longitude": 144.2810256985854, 
+      "spawnpoint_id": "6ad759eaad7", 
+      "time": 613
+    }, 
+    {
+      "latitude": -36.759951412081904, 
+      "longitude": 144.3203731575667, 
+      "spawnpoint_id": "6ad75916d8d", 
+      "time": 544
+    }, 
+    {
+      "latitude": -36.75811572652198, 
+      "longitude": 144.31311674789555, 
+      "spawnpoint_id": "6ad7590e3b1", 
+      "time": 1039
+    }, 
+    {
+      "latitude": -36.777336376922506, 
+      "longitude": 144.30756817247752, 
+      "spawnpoint_id": "6ad7597eba5", 
+      "time": 1444
+    }, 
+    {
+      "latitude": -36.74639040950356, 
+      "longitude": 144.29297298849892, 
+      "spawnpoint_id": "6ad759afc5b", 
+      "time": 2255
+    }, 
+    {
+      "latitude": -36.775078733066486, 
+      "longitude": 144.279660407784, 
+      "spawnpoint_id": "6ad75a1f14f", 
+      "time": 2145
+    }, 
+    {
+      "latitude": -36.77313953010847, 
+      "longitude": 144.30842177442838, 
+      "spawnpoint_id": "6ad75979f5f", 
+      "time": 1797
+    }, 
+    {
+      "latitude": -36.75817617652055, 
+      "longitude": 144.28273234490808, 
+      "spawnpoint_id": "6ad7599499b", 
+      "time": 810
+    }, 
+    {
+      "latitude": -36.75777832720337, 
+      "longitude": 144.2835003476501, 
+      "spawnpoint_id": "6ad759948cb", 
+      "time": 2211
+    }, 
+    {
+      "latitude": -36.7715306418033, 
+      "longitude": 144.31508018209084, 
+      "spawnpoint_id": "6ad7596e39d", 
+      "time": 1152
+    }, 
+    {
+      "latitude": -36.75929529054305, 
+      "longitude": 144.28256167863486, 
+      "spawnpoint_id": "6ad75993683", 
+      "time": 2595
+    }, 
+    {
+      "latitude": -36.76469442413737, 
+      "longitude": 144.3196048007127, 
+      "spawnpoint_id": "6ad7591483b", 
+      "special": true, 
+      "time": 240
+    }, 
+    {
+      "latitude": -36.75829415801375, 
+      "longitude": 144.28222034718235, 
+      "spawnpoint_id": "6ad75994a13", 
+      "time": 2585
+    }, 
+    {
+      "latitude": -36.75901212364043, 
+      "longitude": 144.3159338641505, 
+      "spawnpoint_id": "6ad75911bad", 
+      "time": 3128
+    }, 
+    {
+      "latitude": -36.755142806594534, 
+      "longitude": 144.28290301154595, 
+      "spawnpoint_id": "6ad759956cb", 
+      "time": 2364
+    }, 
+    {
+      "latitude": -36.77852210509067, 
+      "longitude": 144.2858044001782, 
+      "spawnpoint_id": "6ad75a21587", 
+      "time": 2372
+    }, 
+    {
+      "latitude": -36.76110061971458, 
+      "longitude": 144.31986091884508, 
+      "spawnpoint_id": "6ad75916b6d", 
+      "special": true, 
+      "time": 3070
+    }, 
+    {
+      "latitude": -36.7612769709875, 
+      "longitude": 144.3203731575667, 
+      "spawnpoint_id": "6ad75916b95", 
+      "time": 3032
+    }, 
+    {
+      "latitude": -36.77066424184236, 
+      "longitude": 144.31106799833515, 
+      "spawnpoint_id": "6ad75971005", 
+      "time": 3221
+    }, 
+    {
+      "latitude": -36.75741193251336, 
+      "longitude": 144.30850713512427, 
+      "spawnpoint_id": "6ad7590eb2d", 
+      "time": 1366
+    }, 
+    {
+      "latitude": -36.77516111592748, 
+      "longitude": 144.29911800449233, 
+      "spawnpoint_id": "6ad75981143", 
+      "time": 17
+    }, 
+    {
+      "latitude": -36.77251614702815, 
+      "longitude": 144.31687292492822, 
+      "spawnpoint_id": "6ad7596efed", 
+      "time": 813
+    }, 
+    {
+      "latitude": -36.775116910874665, 
+      "longitude": 144.29920335526177, 
+      "spawnpoint_id": "6ad75981147", 
+      "time": 195
+    }, 
+    {
+      "latitude": -36.75619015668029, 
+      "longitude": 144.27761251534676, 
+      "spawnpoint_id": "6ad759eb905", 
+      "time": 2034
+    }, 
+    {
+      "latitude": -36.757406858417184, 
+      "longitude": 144.31576312701043, 
+      "spawnpoint_id": "6ad75910447", 
+      "time": 3161
+    }, 
+    {
+      "latitude": -36.76025361598351, 
+      "longitude": 144.27872178389757, 
+      "spawnpoint_id": "6ad759ed08b", 
+      "time": 3089
+    }, 
+    {
+      "latitude": -36.75508399452053, 
+      "longitude": 144.3098729186401, 
+      "spawnpoint_id": "6ad7590f155", 
+      "time": 1207
+    }, 
+    {
+      "latitude": -36.75710246782529, 
+      "longitude": 144.27940441835722, 
+      "spawnpoint_id": "6ad759eb643", 
+      "time": 2813
+    }, 
+    {
+      "latitude": -36.76369128934542, 
+      "longitude": 144.32182451840038, 
+      "spawnpoint_id": "6ad75914343", 
+      "time": 1721
+    }, 
+    {
+      "latitude": -36.772771182240234, 
+      "longitude": 144.30884857881816, 
+      "spawnpoint_id": "6ad7597a047", 
+      "time": 2178
+    }, 
+    {
+      "latitude": -36.76006763997376, 
+      "longitude": 144.32242214521028, 
+      "spawnpoint_id": "6ad75917a8d", 
+      "time": 291
+    }, 
+    {
+      "latitude": -36.76053618084126, 
+      "longitude": 144.30517813545558, 
+      "spawnpoint_id": "6ad7590add7", 
+      "time": 2523
+    }, 
+    {
+      "latitude": -36.75605620824721, 
+      "longitude": 144.28170835273852, 
+      "spawnpoint_id": "6ad75994d7b", 
+      "time": 67
+    }, 
+    {
+      "latitude": -36.756763025033194, 
+      "longitude": 144.28162302065027, 
+      "spawnpoint_id": "6ad75994ced", 
+      "time": 2472
+    }, 
+    {
+      "latitude": -36.763034054541215, 
+      "longitude": 144.3141411423378, 
+      "spawnpoint_id": "6ad759129cd", 
+      "time": 661
+    }, 
+    {
+      "latitude": -36.76382467369622, 
+      "longitude": 144.32071465186766, 
+      "spawnpoint_id": "6ad7591469f", 
+      "time": 2337
+    }, 
+    {
+      "latitude": -36.75891239750011, 
+      "longitude": 144.28273234490808, 
+      "spawnpoint_id": "6ad75993613", 
+      "time": 2379
+    }, 
+    {
+      "latitude": -36.74705481080382, 
+      "longitude": 144.28998599855333, 
+      "spawnpoint_id": "6ad759ba82b", 
+      "time": 2351
+    }, 
+    {
+      "latitude": -36.79815099807035, 
+      "longitude": 144.24331812891108, 
+      "spawnpoint_id": "6ad75062223", 
+      "time": 776
+    }, 
+    {
+      "latitude": -36.78037190581727, 
+      "longitude": 144.30184927429224, 
+      "spawnpoint_id": "6ad75a2abef", 
+      "time": 3073
+    }, 
+    {
+      "latitude": -36.76207764480821, 
+      "longitude": 144.31286065133307, 
+      "spawnpoint_id": "6ad7590d75d", 
+      "time": 1394
+    }, 
+    {
+      "latitude": -36.75927309470011, 
+      "longitude": 144.32139764483725, 
+      "spawnpoint_id": "6ad75917121", 
+      "time": 3439
+    }, 
+    {
+      "latitude": -36.772546608645584, 
+      "longitude": 144.31525091777465, 
+      "spawnpoint_id": "6ad7596fc9f", 
+      "time": 938
+    }, 
+    {
+      "latitude": -36.75539326511649, 
+      "longitude": 144.28256167863486, 
+      "spawnpoint_id": "6ad75995161", 
+      "time": 1911
+    }, 
+    {
+      "latitude": -36.76250104934059, 
+      "longitude": 144.3181534800992, 
+      "spawnpoint_id": "6ad75913eaf", 
+      "time": 2257
+    }, 
+    {
+      "latitude": -36.761194926905375, 
+      "longitude": 144.28187901718846, 
+      "spawnpoint_id": "6ad75992da9", 
+      "time": 1991
+    }, 
+    {
+      "latitude": -36.75677765579768, 
+      "longitude": 144.28187901718846, 
+      "spawnpoint_id": "6ad75994c59", 
+      "time": 2427
+    }, 
+    {
+      "latitude": -36.758775717534384, 
+      "longitude": 144.31695829463592, 
+      "spawnpoint_id": "6ad75911019", 
+      "time": 172
+    }, 
+    {
+      "latitude": -36.757917416548736, 
+      "longitude": 144.32216601888868, 
+      "spawnpoint_id": "6ad759182b3", 
+      "time": 2895
+    }, 
+    {
+      "latitude": -36.77073786911849, 
+      "longitude": 144.31106799833515, 
+      "spawnpoint_id": "6ad75971003", 
+      "time": 1536
+    }, 
+    {
+      "latitude": -36.754185149649885, 
+      "longitude": 144.28418302295293, 
+      "spawnpoint_id": "6ad759be2bf", 
+      "time": 1917
+    }, 
+    {
+      "latitude": -36.774893166845075, 
+      "longitude": 144.30560492254511, 
+      "spawnpoint_id": "6ad75978dfb", 
+      "time": 521
+    }, 
+    {
+      "latitude": -36.75612983204048, 
+      "longitude": 144.28170835273852, 
+      "spawnpoint_id": "6ad75994d71", 
+      "time": 298
+    }, 
+    {
+      "latitude": -36.75994396095062, 
+      "longitude": 144.28017238909933, 
+      "spawnpoint_id": "6ad759ecd93", 
+      "time": 3208
+    }, 
+    {
+      "latitude": -36.76042265896122, 
+      "longitude": 144.32045853100544, 
+      "spawnpoint_id": "6ad75916dcb", 
+      "time": 2414
+    }, 
+    {
+      "latitude": -36.75813302037612, 
+      "longitude": 144.27983106785777, 
+      "spawnpoint_id": "6ad759eca29", 
+      "time": 1662
+    }, 
+    {
+      "latitude": -36.77582819739794, 
+      "longitude": 144.2854630548699, 
+      "spawnpoint_id": "6ad75a20de9", 
+      "time": 1789
+    }, 
+    {
+      "latitude": -36.756896528219634, 
+      "longitude": 144.2788071128859, 
+      "spawnpoint_id": "6ad759eb7bd", 
+      "time": 762
+    }, 
+    {
+      "latitude": -36.76862129212746, 
+      "longitude": 144.30406849967721, 
+      "spawnpoint_id": "6ad75977cbf", 
+      "time": 1053
+    }, 
+    {
+      "latitude": -36.77131105627283, 
+      "longitude": 144.31294601676285, 
+      "spawnpoint_id": "6ad75971cc9", 
+      "time": 472
+    }, 
+    {
+      "latitude": -36.775886463923946, 
+      "longitude": 144.2877671640016, 
+      "spawnpoint_id": "6ad75a273ef", 
+      "time": 2521
+    }, 
+    {
+      "latitude": -36.76082091114328, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75916b5f", 
+      "special": true, 
+      "time": 3350
+    }, 
+    {
+      "latitude": -36.76089455267762, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75916b5d", 
+      "time": 336
+    }, 
+    {
+      "latitude": -36.76460593464219, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad7591486b", 
+      "time": 2376
+    }, 
+    {
+      "latitude": -36.77699810415044, 
+      "longitude": 144.3067999385066, 
+      "spawnpoint_id": "6ad7597ec61", 
+      "time": 357
+    }, 
+    {
+      "latitude": -36.783616189626535, 
+      "longitude": 144.28136702493262, 
+      "spawnpoint_id": "6ad75a3d7cf", 
+      "time": 2035
+    }, 
+    {
+      "latitude": -36.76453229653419, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad7591486d", 
+      "time": 2690
+    }, 
+    {
+      "latitude": -36.76036452631926, 
+      "longitude": 144.31943405574611, 
+      "spawnpoint_id": "6ad75916ccb", 
+      "time": 2726
+    }, 
+    {
+      "latitude": -36.7797651546314, 
+      "longitude": 144.30884857881816, 
+      "spawnpoint_id": "6ad7597dd15", 
+      "special": true, 
+      "time": 1893
+    }, 
+    {
+      "latitude": -36.74889434669323, 
+      "longitude": 144.29254626881544, 
+      "spawnpoint_id": "6ad759a5491", 
+      "time": 80
+    }, 
+    {
+      "latitude": -36.76032027650727, 
+      "longitude": 144.31951942818392, 
+      "spawnpoint_id": "6ad75916ccf", 
+      "time": 2217
+    }, 
+    {
+      "latitude": -36.75885550841054, 
+      "longitude": 144.2765885888237, 
+      "spawnpoint_id": "6ad759ec333", 
+      "time": 2108
+    }, 
+    {
+      "latitude": -36.74896890386437, 
+      "longitude": 144.29083941286157, 
+      "spawnpoint_id": "6ad759bac2f", 
+      "time": 2311
+    }, 
+    {
+      "latitude": -36.784675506381355, 
+      "longitude": 144.28443902769556, 
+      "spawnpoint_id": "6ad75a3cfaf", 
+      "time": 1981
+    }, 
+    {
+      "latitude": -36.75702809875955, 
+      "longitude": 144.28153768865326, 
+      "spawnpoint_id": "6ad75994c9f", 
+      "time": 1082
+    }, 
+    {
+      "latitude": -36.77390648067572, 
+      "longitude": 144.3059463538558, 
+      "spawnpoint_id": "6ad75979011", 
+      "time": 1398
+    }, 
+    {
+      "latitude": -36.75750697072068, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75917541", 
+      "time": 2250
+    }, 
+    {
+      "latitude": -36.778396442382856, 
+      "longitude": 144.3076535322629, 
+      "spawnpoint_id": "6ad7597e903", 
+      "time": 735
+    }, 
+    {
+      "latitude": -36.75892763305119, 
+      "longitude": 144.28128169320908, 
+      "spawnpoint_id": "6ad759934cf", 
+      "special": true, 
+      "time": 2205
+    }, 
+    {
+      "latitude": -36.76064911818591, 
+      "longitude": 144.2847803686286, 
+      "spawnpoint_id": "6ad75993bdb", 
+      "time": 2145
+    }, 
+    {
+      "latitude": -36.7653150216564, 
+      "longitude": 144.31670218578589, 
+      "spawnpoint_id": "6ad7591329f", 
+      "time": 290
+    }, 
+    {
+      "latitude": -36.759619637426525, 
+      "longitude": 144.28136702493262, 
+      "spawnpoint_id": "6ad75993347", 
+      "time": 1203
+    }, 
+    {
+      "latitude": -36.772169817049914, 
+      "longitude": 144.30432456810624, 
+      "spawnpoint_id": "6ad759786a7", 
+      "time": 1132
+    }, 
+    {
+      "latitude": -36.74899876157794, 
+      "longitude": 144.29007133957407, 
+      "spawnpoint_id": "6ad759bae4d", 
+      "time": 3124
+    }, 
+    {
+      "latitude": -36.74225165939612, 
+      "longitude": 144.29314367701014, 
+      "spawnpoint_id": "6ad759adeb5", 
+      "time": 1481
+    }, 
+    {
+      "latitude": -36.77125095775242, 
+      "longitude": 144.3149094467711, 
+      "spawnpoint_id": "6ad7596e3bf", 
+      "time": 364
+    }, 
+    {
+      "latitude": -36.76446048693752, 
+      "longitude": 144.317214404305, 
+      "spawnpoint_id": "6ad7591319b", 
+      "time": 733
+    }, 
+    {
+      "latitude": -36.76229529228414, 
+      "longitude": 144.3175558851379, 
+      "spawnpoint_id": "6ad75913c71", 
+      "time": 1715
+    }, 
+    {
+      "latitude": -36.76351620905409, 
+      "longitude": 144.3196048007127, 
+      "spawnpoint_id": "6ad7591476f", 
+      "time": 1793
+    }, 
+    {
+      "latitude": -36.75523105635428, 
+      "longitude": 144.2831590121865, 
+      "spawnpoint_id": "6ad759956d5", 
+      "time": 2432
+    }, 
+    {
+      "latitude": -36.75919284156879, 
+      "longitude": 144.2807697047823, 
+      "spawnpoint_id": "6ad759ecc9f", 
+      "time": 2594
+    }, 
+    {
+      "latitude": -36.75557009564013, 
+      "longitude": 144.28222034718235, 
+      "spawnpoint_id": "6ad75995235", 
+      "time": 2457
+    }, 
+    {
+      "latitude": -36.76557683267898, 
+      "longitude": 144.32131227039756, 
+      "spawnpoint_id": "6ad75914efb", 
+      "time": 2896
+    }, 
+    {
+      "latitude": -36.758334497385384, 
+      "longitude": 144.31610460165462, 
+      "spawnpoint_id": "6ad7591052d", 
+      "time": 3593
+    }, 
+    {
+      "latitude": -36.773020280458056, 
+      "longitude": 144.31106799833515, 
+      "spawnpoint_id": "6ad75970805", 
+      "special": true, 
+      "time": 2175
+    }, 
+    {
+      "latitude": -36.782698861667384, 
+      "longitude": 144.29963011047525, 
+      "spawnpoint_id": "6ad75a2b9ab", 
+      "time": 3533
+    }, 
+    {
+      "latitude": -36.757819317996734, 
+      "longitude": 144.31567775857692, 
+      "spawnpoint_id": "6ad759104ed", 
+      "special": true, 
+      "time": 2823
+    }, 
+    {
+      "latitude": -36.75920747915174, 
+      "longitude": 144.2810256985854, 
+      "spawnpoint_id": "6ad759ecb57", 
+      "time": 797
+    }, 
+    {
+      "latitude": -36.76048643627286, 
+      "longitude": 144.31379967606733, 
+      "spawnpoint_id": "6ad7590df83", 
+      "time": 2258
+    }, 
+    {
+      "latitude": -36.756852183291684, 
+      "longitude": 144.27931908873063, 
+      "spawnpoint_id": "6ad759eb6f7", 
+      "time": 2167
+    }, 
+    {
+      "latitude": -36.77846878911573, 
+      "longitude": 144.31021436816076, 
+      "spawnpoint_id": "6ad7597c695", 
+      "time": 622
+    }, 
+    {
+      "latitude": -36.75899727081348, 
+      "longitude": 144.31610460165462, 
+      "spawnpoint_id": "6ad75911a57", 
+      "time": 3473
+    }, 
+    {
+      "latitude": -36.774700197936795, 
+      "longitude": 144.3086778567891, 
+      "spawnpoint_id": "6ad7597bd4d", 
+      "time": 1347
+    }, 
+    {
+      "latitude": -36.7785799434453, 
+      "longitude": 144.28981531678522, 
+      "spawnpoint_id": "6ad75a265c5", 
+      "time": 2241
+    }, 
+    {
+      "latitude": -36.75928035179613, 
+      "longitude": 144.2831590121865, 
+      "spawnpoint_id": "6ad75993653", 
+      "time": 931
+    }, 
+    {
+      "latitude": -36.780607190299925, 
+      "longitude": 144.302532106315, 
+      "spawnpoint_id": "6ad75a2ab6f", 
+      "time": 2810
+    }, 
+    {
+      "latitude": -36.76137292072561, 
+      "longitude": 144.3095314705761, 
+      "spawnpoint_id": "6ad7590c8df", 
+      "time": 434
+    }, 
+    {
+      "latitude": -36.76281428795848, 
+      "longitude": 144.31243382554948, 
+      "spawnpoint_id": "6ad7590d14f", 
+      "time": 3496
+    }, 
+    {
+      "latitude": -36.77455468023164, 
+      "longitude": 144.30526349269135, 
+      "spawnpoint_id": "6ad75978e71", 
+      "time": 696
+    }, 
+    {
+      "latitude": -36.7552469714562, 
+      "longitude": 144.2800017282962, 
+      "spawnpoint_id": "6ad759eadf1", 
+      "time": 1550
+    }, 
+    {
+      "latitude": -36.75839328504983, 
+      "longitude": 144.31627533952278, 
+      "spawnpoint_id": "6ad75910535", 
+      "time": 2170
+    }, 
+    {
+      "latitude": -36.75662925679614, 
+      "longitude": 144.2848657040897, 
+      "spawnpoint_id": "6ad75995b13", 
+      "time": 2801
+    }, 
+    {
+      "latitude": -36.7980920819664, 
+      "longitude": 144.24314754695294, 
+      "spawnpoint_id": "6ad7506221b", 
+      "time": 443
+    }, 
+    {
+      "latitude": -36.75565929280634, 
+      "longitude": 144.27991639803142, 
+      "spawnpoint_id": "6ad759eb223", 
+      "time": 1302
+    }, 
+    {
+      "latitude": -36.75590896045396, 
+      "longitude": 144.28170835273852, 
+      "spawnpoint_id": "6ad75995283", 
+      "time": 2989
+    }, 
+    {
+      "latitude": -36.75573321441059, 
+      "longitude": 144.27906310039796, 
+      "spawnpoint_id": "6ad759eb0fd", 
+      "time": 999
+    }, 
+    {
+      "latitude": -36.776324172732345, 
+      "longitude": 144.2992887061223, 
+      "spawnpoint_id": "6ad75980e3d", 
+      "time": 3053
+    }, 
+    {
+      "latitude": -36.75798488288225, 
+      "longitude": 144.28239101272626, 
+      "spawnpoint_id": "6ad75994a2d", 
+      "time": 2834
+    }, 
+    {
+      "latitude": -36.75897280977862, 
+      "longitude": 144.27820981188236, 
+      "spawnpoint_id": "6ad759ec571", 
+      "time": 763
+    }, 
+    {
+      "latitude": -36.75671767531417, 
+      "longitude": 144.28469503325857, 
+      "spawnpoint_id": "6ad75995b23", 
+      "time": 1590
+    }, 
+    {
+      "latitude": -36.756689401882404, 
+      "longitude": 144.28162302065027, 
+      "spawnpoint_id": "6ad75994cef", 
+      "time": 986
+    }, 
+    {
+      "latitude": -36.768039207021204, 
+      "longitude": 144.3171290343243, 
+      "spawnpoint_id": "6ad7596cf8f", 
+      "time": 3573
+    }, 
+    {
+      "latitude": -36.76825924133776, 
+      "longitude": 144.31840959359056, 
+      "spawnpoint_id": "6ad7596c8eb", 
+      "time": 550
+    }, 
+    {
+      "latitude": -36.75505582376449, 
+      "longitude": 144.27923375919522, 
+      "spawnpoint_id": "6ad759eae29", 
+      "time": 646
+    }, 
+    {
+      "latitude": -36.77359608436834, 
+      "longitude": 144.30825105330982, 
+      "spawnpoint_id": "6ad759798bd", 
+      "time": 746
+    }, 
+    {
+      "latitude": -36.7735224614164, 
+      "longitude": 144.30825105330982, 
+      "spawnpoint_id": "6ad759798bb", 
+      "time": 2619
+    }, 
+    {
+      "latitude": -36.76487522101373, 
+      "longitude": 144.31371430972726, 
+      "spawnpoint_id": "6ad75972abd", 
+      "time": 3425
+    }, 
+    {
+      "latitude": -36.779705068040315, 
+      "longitude": 144.3112387254625, 
+      "spawnpoint_id": "6ad7597cf81", 
+      "time": 1242
+    }, 
+    {
+      "latitude": -36.773226573982235, 
+      "longitude": 144.31081190832697, 
+      "spawnpoint_id": "6ad7597a793", 
+      "time": 2448
+    }, 
+    {
+      "latitude": -36.748026222087844, 
+      "longitude": 144.29109543893102, 
+      "spawnpoint_id": "6ad759babb5", 
+      "time": 202
+    }, 
+    {
+      "latitude": -36.77683895290881, 
+      "longitude": 144.30056897996047, 
+      "spawnpoint_id": "6ad75980541", 
+      "time": 31
+    }, 
+    {
+      "latitude": -36.77577445032322, 
+      "longitude": 144.3098729186401, 
+      "spawnpoint_id": "6ad7597bb87", 
+      "time": 1444
+    }, 
+    {
+      "latitude": -36.7558507428996, 
+      "longitude": 144.27983106785777, 
+      "spawnpoint_id": "6ad759eb22b", 
+      "time": 3080
+    }, 
+    {
+      "latitude": -36.77438804484123, 
+      "longitude": 144.31397040902053, 
+      "spawnpoint_id": "6ad7596554b", 
+      "time": 734
+    }, 
+    {
+      "latitude": -36.775783554715694, 
+      "longitude": 144.28725513400803, 
+      "spawnpoint_id": "6ad75a27375", 
+      "time": 2363
+    }, 
+    {
+      "latitude": -36.75456876168222, 
+      "longitude": 144.28230567990872, 
+      "spawnpoint_id": "6ad7599543b", 
+      "time": 1974
+    }, 
+    {
+      "latitude": -36.74584477677662, 
+      "longitude": 144.29416781573102, 
+      "spawnpoint_id": "6ad759ae521", 
+      "time": 1786
+    }, 
+    {
+      "latitude": -36.745640400280365, 
+      "longitude": 144.29101009681673, 
+      "spawnpoint_id": "6ad759b039f", 
+      "time": 3098
+    }, 
+    {
+      "latitude": -36.7480715743283, 
+      "longitude": 144.28887657357657, 
+      "spawnpoint_id": "6ad759ba5c7", 
+      "time": 3020
+    }, 
+    {
+      "latitude": -36.75880415065762, 
+      "longitude": 144.31832422233578, 
+      "spawnpoint_id": "6ad75910dc1", 
+      "special": true, 
+      "time": 1749
+    }, 
+    {
+      "latitude": -36.74889411129493, 
+      "longitude": 144.29297298849892, 
+      "spawnpoint_id": "6ad759a5443", 
+      "time": 3020
+    }, 
+    {
+      "latitude": -36.747392426187446, 
+      "longitude": 144.29203420820218, 
+      "spawnpoint_id": "6ad759b0021", 
+      "time": 3015
+    }, 
+    {
+      "latitude": -36.763844049163765, 
+      "longitude": 144.3141411423378, 
+      "spawnpoint_id": "6ad75912a13", 
+      "time": 731
+    }, 
+    {
+      "latitude": -36.75833290112967, 
+      "longitude": 144.318238851172, 
+      "spawnpoint_id": "6ad75910c3b", 
+      "time": 1533
+    }, 
+    {
+      "latitude": -36.748394175171384, 
+      "longitude": 144.2915221508692, 
+      "spawnpoint_id": "6ad759bab0d", 
+      "time": 3034
+    }, 
+    {
+      "latitude": -36.75787841946003, 
+      "longitude": 144.3154216538225, 
+      "spawnpoint_id": "6ad759104a3", 
+      "time": 1484
+    }, 
+    {
+      "latitude": -36.77405241059724, 
+      "longitude": 144.30850713512427, 
+      "spawnpoint_id": "6ad7597a281", 
+      "time": 3332
+    }, 
+    {
+      "latitude": -36.76795101849894, 
+      "longitude": 144.31687292492822, 
+      "spawnpoint_id": "6ad7596cff1", 
+      "time": 449
+    }, 
+    {
+      "latitude": -36.76078272267048, 
+      "longitude": 144.3112387254625, 
+      "spawnpoint_id": "6ad7590db2b", 
+      "time": 1895
+    }, 
+    {
+      "latitude": -36.777026231569124, 
+      "longitude": 144.30944610878768, 
+      "spawnpoint_id": "6ad7597bf6b", 
+      "time": 779
+    }, 
+    {
+      "latitude": -36.74596460024826, 
+      "longitude": 144.2906687292709, 
+      "spawnpoint_id": "6ad759b0407", 
+      "time": 2707
+    }, 
+    {
+      "latitude": -36.760783456747546, 
+      "longitude": 144.27940441835722, 
+      "spawnpoint_id": "6ad759ed13f", 
+      "time": 2568
+    }, 
+    {
+      "latitude": -36.764182828679196, 
+      "longitude": 144.31405577563365, 
+      "spawnpoint_id": "6ad75912a87", 
+      "time": 1090
+    }, 
+    {
+      "latitude": -36.77957370735201, 
+      "longitude": 144.30893393996922, 
+      "spawnpoint_id": "6ad7597dd31", 
+      "time": 1647
+    }, 
+    {
+      "latitude": -36.774289394985466, 
+      "longitude": 144.30577563801833, 
+      "spawnpoint_id": "6ad759791d5", 
+      "time": 2050
+    }, 
+    {
+      "latitude": -36.75922334728145, 
+      "longitude": 144.27744186001436, 
+      "spawnpoint_id": "6ad759edb35", 
+      "time": 825
+    }, 
+    {
+      "latitude": -36.742894565221356, 
+      "longitude": 144.27385818229476, 
+      "spawnpoint_id": "6ad759c5bc7", 
+      "time": 1462
+    }, 
+    {
+      "latitude": -36.75893282800818, 
+      "longitude": 144.30201998175147, 
+      "spawnpoint_id": "6ad759a06f3", 
+      "time": 1729
+    }, 
+    {
+      "latitude": -36.77903259261182, 
+      "longitude": 144.30073968468733, 
+      "spawnpoint_id": "6ad75a2a827", 
+      "time": 2952
+    }, 
+    {
+      "latitude": -36.75442064983931, 
+      "longitude": 144.28443902769556, 
+      "spawnpoint_id": "6ad759be285", 
+      "time": 1167
+    }, 
+    {
+      "latitude": -36.76459139289911, 
+      "longitude": 144.31951942818392, 
+      "spawnpoint_id": "6ad75914823", 
+      "time": 2570
+    }, 
+    {
+      "latitude": -36.78031220286653, 
+      "longitude": 144.30381243206776, 
+      "spawnpoint_id": "6ad75bd5599", 
+      "time": 3488
+    }, 
+    {
+      "latitude": -36.75808751606504, 
+      "longitude": 144.31132408916267, 
+      "spawnpoint_id": "6ad7590e61b", 
+      "time": 1375
+    }, 
+    {
+      "latitude": -36.77912198018725, 
+      "longitude": 144.29800845277896, 
+      "spawnpoint_id": "6ad75a2a18f", 
+      "time": 3396
+    }, 
+    {
+      "latitude": -36.75984035276231, 
+      "longitude": 144.2817936849179, 
+      "spawnpoint_id": "6ad7599330b", 
+      "time": 1030
+    }, 
+    {
+      "latitude": -36.76466859199071, 
+      "longitude": 144.3143972429964, 
+      "spawnpoint_id": "6ad75912ac5", 
+      "time": 1998
+    }, 
+    {
+      "latitude": -36.74777567078073, 
+      "longitude": 144.29143680829935, 
+      "spawnpoint_id": "6ad759baa8b", 
+      "time": 3357
+    }, 
+    {
+      "latitude": -36.77316893395653, 
+      "longitude": 144.30850713512427, 
+      "spawnpoint_id": "6ad7597a1e1", 
+      "time": 2926
+    }, 
+    {
+      "latitude": -36.77975426816626, 
+      "longitude": 144.30005686796588, 
+      "spawnpoint_id": "6ad75a2a611", 
+      "time": 2730
+    }, 
+    {
+      "latitude": -36.76141769644118, 
+      "longitude": 144.30859249591114, 
+      "spawnpoint_id": "6ad7590c9e7", 
+      "time": 958
+    }, 
+    {
+      "latitude": -36.773699557763386, 
+      "longitude": 144.3074828127832, 
+      "spawnpoint_id": "6ad759799a1", 
+      "time": 865
+    }, 
+    {
+      "latitude": -36.77131181273286, 
+      "longitude": 144.31166554487388, 
+      "spawnpoint_id": "6ad75970517", 
+      "time": 693
+    }, 
+    {
+      "latitude": -36.75606577957665, 
+      "longitude": 144.31678755531155, 
+      "spawnpoint_id": "6ad7591a7e5", 
+      "time": 356
+    }, 
+    {
+      "latitude": -36.758526340618744, 
+      "longitude": 144.31559239023446, 
+      "spawnpoint_id": "6ad75911b6b", 
+      "special": true, 
+      "time": 2557
+    }, 
+    {
+      "latitude": -36.757984726498364, 
+      "longitude": 144.28281767818143, 
+      "spawnpoint_id": "6ad75994973", 
+      "time": 1279
+    }, 
+    {
+      "latitude": -36.78430751243462, 
+      "longitude": 144.28443902769556, 
+      "spawnpoint_id": "6ad75a3ce5d", 
+      "time": 2462
+    }, 
+    {
+      "latitude": -36.75818260939924, 
+      "longitude": 144.32208064363013, 
+      "spawnpoint_id": "6ad759177f9", 
+      "time": 1566
+    }, 
+    {
+      "latitude": -36.75754419559146, 
+      "longitude": 144.27940441835722, 
+      "spawnpoint_id": "6ad759ec9df", 
+      "time": 1928
+    }, 
+    {
+      "latitude": -36.7738021383196, 
+      "longitude": 144.30842177442838, 
+      "spawnpoint_id": "6ad7597989d", 
+      "time": 3176
+    }, 
+    {
+      "latitude": -36.76380009627047, 
+      "longitude": 144.31379967606733, 
+      "spawnpoint_id": "6ad7590d58d", 
+      "time": 1302
+    }, 
+    {
+      "latitude": -36.77189096764216, 
+      "longitude": 144.3024467519934, 
+      "spawnpoint_id": "6ad759829ad", 
+      "special": true, 
+      "time": 1677
+    }, 
+    {
+      "latitude": -36.77728660654381, 
+      "longitude": 144.28094036722655, 
+      "spawnpoint_id": "6ad75a18a91", 
+      "time": 1755
+    }, 
+    {
+      "latitude": -36.757631080537514, 
+      "longitude": 144.2835003476501, 
+      "spawnpoint_id": "6ad75994f37", 
+      "time": 404
+    }, 
+    {
+      "latitude": -36.77414236375175, 
+      "longitude": 144.30534885001822, 
+      "spawnpoint_id": "6ad75978e4b", 
+      "time": 2739
+    }, 
+    {
+      "latitude": -36.75691781113737, 
+      "longitude": 144.3196901733325, 
+      "spawnpoint_id": "6ad75919f95", 
+      "time": 1037
+    }, 
+    {
+      "latitude": -36.75598407238418, 
+      "longitude": 144.27744186001436, 
+      "spawnpoint_id": "6ad759eb915", 
+      "time": 1663
+    }, 
+    {
+      "latitude": -36.7447564850266, 
+      "longitude": 144.29143680829935, 
+      "spawnpoint_id": "6ad759b1d1d", 
+      "time": 1304
+    }, 
+    {
+      "latitude": -36.77217002739569, 
+      "longitude": 144.30389778784652, 
+      "spawnpoint_id": "6ad759786e9", 
+      "time": 1033
+    }, 
+    {
+      "latitude": -36.761415201725775, 
+      "longitude": 144.31243382554948, 
+      "spawnpoint_id": "6ad7590da25", 
+      "special": true, 
+      "time": 2198
+    }, 
+    {
+      "latitude": -36.75624885769623, 
+      "longitude": 144.27820981188236, 
+      "spawnpoint_id": "6ad759eb9c3", 
+      "time": 1435
+    }, 
+    {
+      "latitude": -36.77369911138224, 
+      "longitude": 144.30833641382358, 
+      "spawnpoint_id": "6ad75979899", 
+      "time": 341
+    }, 
+    {
+      "latitude": -36.75816774290121, 
+      "longitude": 144.32225139423824, 
+      "spawnpoint_id": "6ad75917807", 
+      "time": 1371
+    }, 
+    {
+      "latitude": -36.758544594009805, 
+      "longitude": 144.28187901718846, 
+      "spawnpoint_id": "6ad7599359d", 
+      "time": 363
+    }, 
+    {
+      "latitude": -36.758541193140125, 
+      "longitude": 144.3154216538225, 
+      "spawnpoint_id": "6ad75911b65", 
+      "time": 3525
+    }, 
+    {
+      "latitude": -36.75443613498109, 
+      "longitude": 144.28256167863486, 
+      "spawnpoint_id": "6ad7599567f", 
+      "time": 3196
+    }, 
+    {
+      "latitude": -36.74634642120979, 
+      "longitude": 144.2926316125699, 
+      "spawnpoint_id": "6ad759afdb1", 
+      "time": 2937
+    }, 
+    {
+      "latitude": -36.7552460150843, 
+      "longitude": 144.28256167863486, 
+      "spawnpoint_id": "6ad75995159", 
+      "time": 2456
+    }, 
+    {
+      "latitude": -36.75517238996486, 
+      "longitude": 144.28256167863486, 
+      "spawnpoint_id": "6ad75995157", 
+      "time": 1865
+    }, 
+    {
+      "latitude": -36.74857198679684, 
+      "longitude": 144.28947395434258, 
+      "spawnpoint_id": "6ad759baf79", 
+      "time": 2170
+    }, 
+    {
+      "latitude": -36.76317895461138, 
+      "longitude": 144.3175558851379, 
+      "spawnpoint_id": "6ad75913a45", 
+      "special": true, 
+      "time": 2101
+    }, 
+    {
+      "latitude": -36.75957708505109, 
+      "longitude": 144.30816569288712, 
+      "spawnpoint_id": "6ad7590b893", 
+      "time": 1466
+    }, 
+    {
+      "latitude": -36.755540678331485, 
+      "longitude": 144.28213501454712, 
+      "spawnpoint_id": "6ad7599524b", 
+      "time": 293
+    }, 
+    {
+      "latitude": -36.76312253328558, 
+      "longitude": 144.31397040902053, 
+      "spawnpoint_id": "6ad759129d9", 
+      "time": 644
+    }, 
+    {
+      "latitude": -36.7711516719445, 
+      "longitude": 144.30842177442838, 
+      "spawnpoint_id": "6ad759774ad", 
+      "time": 1384
+    }, 
+    {
+      "latitude": -36.75727807286235, 
+      "longitude": 144.28247634563496, 
+      "spawnpoint_id": "6ad75994c03", 
+      "time": 3469
+    }, 
+    {
+      "latitude": -36.771078046602206, 
+      "longitude": 144.30842177442838, 
+      "spawnpoint_id": "6ad759774ab", 
+      "time": 170
+    }, 
+    {
+      "latitude": -36.73569911559535, 
+      "longitude": 144.25662464704664, 
+      "spawnpoint_id": "6ad75762d59", 
+      "time": 383
+    }, 
+    {
+      "latitude": -36.76232312121961, 
+      "longitude": 144.31977554604327, 
+      "spawnpoint_id": "6ad75914041", 
+      "time": 3091
+    }, 
+    {
+      "latitude": -36.72879452508306, 
+      "longitude": 144.30432456810624, 
+      "spawnpoint_id": "6ad758f60cd", 
+      "time": 2883
+    }, 
+    {
+      "latitude": -36.74589096170405, 
+      "longitude": 144.2906687292709, 
+      "spawnpoint_id": "6ad759b0409", 
+      "time": 1220
+    }, 
+    {
+      "latitude": -36.76263285136626, 
+      "longitude": 144.31917793897873, 
+      "spawnpoint_id": "6ad75913f69", 
+      "time": 2014
+    }, 
+    {
+      "latitude": -36.759098720743566, 
+      "longitude": 144.31832422233578, 
+      "spawnpoint_id": "6ad75910df5", 
+      "time": 1192
+    }, 
+    {
+      "latitude": -36.76403750451024, 
+      "longitude": 144.31106799833515, 
+      "spawnpoint_id": "6ad75973299", 
+      "time": 14
+    }, 
+    {
+      "latitude": -36.76310531646345, 
+      "longitude": 144.3175558851379, 
+      "spawnpoint_id": "6ad75913a4f", 
+      "time": 3576
+    }, 
+    {
+      "latitude": -36.77802855746253, 
+      "longitude": 144.30722673424657, 
+      "spawnpoint_id": "6ad7597e937", 
+      "time": 1145
+    }, 
+    {
+      "latitude": -36.79794495804815, 
+      "longitude": 144.24314754695294, 
+      "spawnpoint_id": "6ad750621f7", 
+      "time": 999
+    }, 
+    {
+      "latitude": -36.75346385039219, 
+      "longitude": 144.28358568174392, 
+      "spawnpoint_id": "6ad759bfcc3", 
+      "time": 1641
+    }, 
+    {
+      "latitude": -36.7837475461167, 
+      "longitude": 144.2875111485947, 
+      "spawnpoint_id": "6ad75a24b31", 
+      "time": 2025
+    }, 
+    {
+      "latitude": -36.77109286529715, 
+      "longitude": 144.30825105330982, 
+      "spawnpoint_id": "6ad759774a5", 
+      "time": 129
+    }, 
+    {
+      "latitude": -36.75556993187664, 
+      "longitude": 144.28264701172589, 
+      "spawnpoint_id": "6ad7599517b", 
+      "time": 1544
+    }, 
+    {
+      "latitude": -36.76285345530984, 
+      "longitude": 144.3196048007127, 
+      "spawnpoint_id": "6ad759140bd", 
+      "time": 582
+    }, 
+    {
+      "latitude": -36.751991912375004, 
+      "longitude": 144.30859249591114, 
+      "spawnpoint_id": "6ad75905df3", 
+      "time": 684
+    }, 
+    {
+      "latitude": -36.771048643326935, 
+      "longitude": 144.30833641382358, 
+      "spawnpoint_id": "6ad759774a9", 
+      "time": 3091
+    }
+  ]
+}

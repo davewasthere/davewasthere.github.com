@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bendigo Pokémon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="map.css">
+  </head>
+  <body id="top">
+    <div class="wrapper">
+      <div id="map"></div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script>
+        var centerLat = -36.7570;
+        var centerLng = 144.2794;
+    </script>
+    <script src="map.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR-DGZuN1F8OUYRcjTH8lkd_kahlUyPSY&amp;callback=initMap&amp;libraries=places,geometry"></script>
+  </body>
+</html>
