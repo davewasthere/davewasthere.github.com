@@ -8,7 +8,7 @@ function initMap(){
     scrollwheel: true,
     panControl: false,
     maxZoom: 18,
-    minZoom: 17,
+    minZoom: 16,
     zoom: 17,
     zoomControl: true,
     scaleControl: true,
@@ -182,11 +182,13 @@ function centerMapOnLocation() {
       clearInterval(animationInterval)
       currentLocation.style.backgroundPosition = '-144px 0px'
 
-      if (locationMarker.rangeCirle)
-      { }
+      if (locationMarker.rangeCircle)
+      {
+        locationMarker.rangeCircle.setCenter(latlng)
+      }
       else
       {
-        locationMarker.rangeCirle = addRangeCircle(locationMarker, map, 'nearby');
+        locationMarker.rangeCircle = addRangeCircle(locationMarker, map, 'nearby');
       }
 
     })
