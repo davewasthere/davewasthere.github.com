@@ -460,7 +460,7 @@ function processSpawnpoints(i, item) {
     var radius = getRadiusBySpawnTime(item['time']);
     borderOpacity = 1;
 
-    if(radius > 0 && radius < 18)
+    if(radius > 2 && radius < 18)
     {
       show = true;
       if(radius > 15 || radius == 0)
