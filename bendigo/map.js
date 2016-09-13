@@ -175,7 +175,7 @@ function initMap() {
 
 
 
-  map.addListener('drag', function () {
+  map.addListener('center_changed', function () {
     centerMap = map.getCenter();
     locationMarker.setPosition(centerMap);
     locationMarker.rangeCircle.setCenter(centerMap);
