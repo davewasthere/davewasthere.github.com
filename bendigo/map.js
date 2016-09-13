@@ -618,12 +618,10 @@ function getRadiusBySpawnTime(value)
 
 $(function () {
 
-  centerMapOnLocation();
-
-
+  // centerMapOnLocation();
   //window.setInterval(centerMapOnLocation, 5000);
+  //  window.setInterval(updateLabelDiffTime, 1000)
 
-//  window.setInterval(updateLabelDiffTime, 1000)
   window.setInterval(updateMap, 5000)
 
   window.setInterval(function () {
@@ -635,7 +633,7 @@ $(function () {
 
         $('#current-location').css('background-position', '-144px 0px');
 
-        if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(centerLat, centerLong))) > 40) {
+        if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(centerLat, centerLong))) > 5) {
           var center = new google.maps.LatLng(centerLat, centerLong)
           map.panTo(center)
           if(locationMarker && locationMarker.rangeCircle)
@@ -644,7 +642,7 @@ $(function () {
             locationMarker.rangeCircle.setCenter(center);
           }
         }
-      })
+      }, null, { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 })
     }
   }, 1000)
 
