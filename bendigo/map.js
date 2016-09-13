@@ -1,4 +1,5 @@
 var rawDataIsLoading = false;
+var followLocation = false;
 var locationMarker;
 var mapData = {
   pokemons: {},
@@ -113,11 +114,9 @@ function initMap() {
       lng: centerLng
     },
     styles: noLabelsStyle,
-    draggable: false,
+    draggable: true,
     scrollwheel: true,
     panControl: false,
-    maxZoom: 18,
-    minZoom: 16,
     zoom: 17,
     zoomControl: true,
     scaleControl: true,
@@ -143,6 +142,50 @@ function initMap() {
   });
 
   addMyLocationButton();
+
+  centerMap = new google.maps.LatLng(centerLat, centerLng);
+  
+  // centerMapOnLocation();
+  //window.setInterval(centerMapOnLocation, 5000);
+  //  window.setInterval(updateLabelDiffTime, 1000)
+
+  window.setInterval(updateMap, 5000)
+
+  window.setInterval(function () {
+    if (navigator.geolocation && followLocation) {
+      navigator.geolocation.getCurrentPosition(function (position) {
+        centerLat = position.coords.latitude;
+        centerLng = position.coords.longitude;
+        centerMap = new google.maps.LatLng(centerLat, centerLng);
+
+        $('#current-location').css('background-position', '-144px 0px');
+
+        if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(centerLat, centerLong))) > 5) {
+          var center = new google.maps.LatLng(centerLat, centerLong)
+          map.panTo(center)
+          if(locationMarker && locationMarker.rangeCircle)
+          {
+            locationMarker.setCenter(center);
+            locationMarker.rangeCircle.setCenter(center);
+          }
+        }
+      }, null, { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 })
+    }
+  }, 1000)
+
+
+
+  map.addListener('center_changed', function () {
+    centerMap = map.getCenter();
+    locationMarker.setPosition(centerMap);
+    locationMarker.rangeCircle.setCenter(centerMap);
+    updateMap();
+  })
+
+  if (pokeData == null)
+  {
+    loadRawData();
+  }
 
 }
 
@@ -218,7 +261,9 @@ function addMyLocationButton() {
       strokeOpacity: 0.3
     }
   })
-  locationMarker.setVisible(false)
+
+  locationMarker.rangeCircle = addRangeCircle(locationMarker, map, 'nearby');
+  locationMarker.setVisible(true)
   
   myLocationButton(map, locationMarker)
 
@@ -309,19 +354,13 @@ function getPointDistance(pointA, pointB) {
 
 function updateMap() {
 
-  if (pokeData == null)
-  {
-    loadRawData();
-  }
-  
-
   var bounds = map.getBounds();
-  var swPoint = bounds.getSouthWest()
-  var nePoint = bounds.getNorthEast()
-  var swLat = swPoint.lat()
-  var swLng = swPoint.lng()
-  var neLat = nePoint.lat()
-  var neLng = nePoint.lng()
+  var swPoint = bounds.getSouthWest();
+  var nePoint = bounds.getNorthEast();
+  var swLat = swPoint.lat();
+  var swLng = swPoint.lng();
+  var neLat = nePoint.lat();
+  var neLng = nePoint.lng();
 
   $.each(mapData.spawnpoints, processSpawnpoints);
   // showInBoundsMarkers(mapData.spawnpoints, 'inbound');
@@ -443,7 +482,7 @@ function processSpawnpoints(i, item) {
       strokeOpacity: borderOpacity
     });
 
-    if(distance > 250 || !show)
+    if(distance > 500 || !show)
     {
       mapData.spawnpoints[id].marker.setMap(null);
     }
@@ -486,7 +525,7 @@ function setupSpawnpointMarker(item) {
   }
 
   var marker = new google.maps.Circle({
-    map: distance < 250 && show ? map : null,
+    map: distance < 500 && show ? map : null,
     center: circleCenter,
     radius: radius + 2, // metres
     fillColor: color,
@@ -617,34 +656,5 @@ function getRadiusBySpawnTime(value)
 
 
 $(function () {
-
-  // centerMapOnLocation();
-  //window.setInterval(centerMapOnLocation, 5000);
-  //  window.setInterval(updateLabelDiffTime, 1000)
-
-  window.setInterval(updateMap, 5000)
-
-  window.setInterval(function () {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function (position) {
-        centerLat = position.coords.latitude;
-        centerLong = position.coords.longitude;
-        centerMap = new google.maps.LatLng(centerLat, centerLong);
-
-        $('#current-location').css('background-position', '-144px 0px');
-
-        if (getPointDistance(locationMarker.getPosition(), (new google.maps.LatLng(centerLat, centerLong))) > 5) {
-          var center = new google.maps.LatLng(centerLat, centerLong)
-          map.panTo(center)
-          if(locationMarker && locationMarker.rangeCircle)
-          {
-            locationMarker.setCenter(center);
-            locationMarker.rangeCircle.setCenter(center);
-          }
-        }
-      }, null, { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 })
-    }
-  }, 1000)
-
 });
 
