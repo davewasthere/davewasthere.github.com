@@ -452,7 +452,6 @@ function processSpawnpoints(i, item) {
   var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude'])
   var distance = getPointDistance(circleCenter, centerMap);
   var radius = 2;
-  var show = false;
   var borderOpacity = 1;
 
   if (id in mapData.spawnpoints) {
@@ -460,9 +459,8 @@ function processSpawnpoints(i, item) {
     var radius = getRadiusBySpawnTime(item['time']);
     borderOpacity = 1;
 
-    if(radius > 2 && radius < 18)
+    if(radius > 2 && radius < 17)
     {
-      show = true;
       if(radius > 15 || radius == 0)
       {
         borderOpacity = 0.3;
@@ -470,7 +468,9 @@ function processSpawnpoints(i, item) {
     }
     else
     {
-      show = false;
+      color = 'hsla(0,0%,0%,0.4)';
+      radius = 0;
+      borderOpacity = 0.4;
     }
 
 
@@ -482,7 +482,7 @@ function processSpawnpoints(i, item) {
       strokeOpacity: borderOpacity
     });
 
-    if(distance > 500 || !show)
+    if(distance > 500)
     {
       mapData.spawnpoints[id].marker.setMap(null);
     }
@@ -511,7 +511,7 @@ function setupSpawnpointMarker(item) {
   var show = false;
   var borderOpacity = 1;
 
-  if(radius > 0 && radius < 18)
+  if(radius > 0 && radius < 17)
   {
     show = true;
     if(radius > 15 || radius == 0)
@@ -521,7 +521,9 @@ function setupSpawnpointMarker(item) {
   }
   else
   {
-    show = false;
+    color = 'hsla(0,0%,0%,0.4)';
+    radius = 0;
+    borderOpacity = 0.4;
   }
 
   var marker = new google.maps.Circle({
