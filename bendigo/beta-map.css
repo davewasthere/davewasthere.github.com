@@ -1,0 +1,9 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+#map {
+    height: calc(100vh - 90px);
+    width: 100vw;
+}
