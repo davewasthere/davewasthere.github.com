@@ -147,36 +147,37 @@ function loadRawData() {
 }
 
 function processSpawnpoints(i, item) {
-  var id = item['spawnpoint_id'];
 
-  var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
-  var distance = getPointDistance(circleCenter, marker.position);
+  if (!isBusy) {
 
-  if (id in mapData.spawnpoints) {
+    var id = item['spawnpoint_id'];
 
-    if (mapData.spawnpoints[id].time != item["time"])
-    {
-      mapData.spawnpoints[id].alttime = item["time"];
-      //mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
-    }
+    var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
+    var distance = getPointDistance(circleCenter, marker.position);
 
-    var color = getColorBySpawnTime(item['time']);
-    var radius = getRadiusBySpawnTime(item['time']);
-    borderOpacity = 1;
-    strokeWeight = 1;
+    if (id in mapData.spawnpoints) {
 
-    if (radius > 2 && radius < 17) {
-      if (radius > 15) {
-        borderOpacity = 0.3;
+      if (mapData.spawnpoints[id].time != item["time"]) {
+        mapData.spawnpoints[id].alttime = item["time"];
+        //mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
       }
-    }
-    else {
-      color = 'hsla(0,0%,0%,0.4)';
-      radius = 0;
-      borderOpacity = 0.1;
 
-      if (item.alttime)
-      {
+      var color = getColorBySpawnTime(item['time']);
+      var radius = getRadiusBySpawnTime(item['time']);
+      borderOpacity = 1;
+      strokeWeight = 1;
+
+      if (radius > 2 && radius < 17) {
+        if (radius > 15) {
+          borderOpacity = 0.3;
+        }
+      }
+      else {
+        color = 'hsla(0,0%,0%,0.4)';
+        radius = 0;
+        borderOpacity = 0.1;
+
+        if (item.alttime) {
           var color = getColorBySpawnTime(item['alttime']);
           var radius = getRadiusBySpawnTime(item['alttime']);
 
@@ -190,32 +191,33 @@ function processSpawnpoints(i, item) {
             radius = 0;
             borderOpacity = 0.1;
           }
+        }
       }
+
+
+      // console.debug(minutes);
+
+      mapData.spawnpoints[id].marker.setOptions({
+        fillColor: color,
+        radius: radius + 2,
+        strokeOpacity: borderOpacity
+      });
+
+
+
+      if (distance > 500) {
+        mapData.spawnpoints[id].marker.setMap(null);
+      }
+      else {
+        mapData.spawnpoints[id].marker.setMap(map);
+      }
+
+      mapData.spawnpoints[id].marker.fillColor = getColorBySpawnTime(item["time"]);
+
+    } else { // add marker to map and item to dict
+      item.marker = setupSpawnpointMarker(item);
+      mapData.spawnpoints[id] = item;
     }
-
-
-    // console.debug(minutes);
-
-    mapData.spawnpoints[id].marker.setOptions({
-      fillColor: color,
-      radius: radius + 2,
-      strokeOpacity: borderOpacity
-    });
-
-
-
-    if (distance > 500) {
-      mapData.spawnpoints[id].marker.setMap(null);
-    }
-    else {
-      mapData.spawnpoints[id].marker.setMap(map);
-    }
-
-    mapData.spawnpoints[id].marker.fillColor = getColorBySpawnTime(item["time"]);
-
-  } else { // add marker to map and item to dict
-    item.marker = setupSpawnpointMarker(item);
-    mapData.spawnpoints[id] = item;
   }
 }
 
