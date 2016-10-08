@@ -8,6 +8,9 @@ var autoTrackEnabled = false;
 var isBusy = false;
 var mapData = {
   spawnpoints: {}
+};
+var rawData = {
+  spawnpoints: {}
 }
 
 var noLabelsStyle = [{
@@ -67,7 +70,7 @@ function initMap() {
     nearby.setCenter(e.latLng);
     scan.setCenter(e.latLng);
     window.location.hash = (e.latLng.lat() + "," + e.latLng.lng());
-    $.each(mapData.spawnpoints, processSpawnpoints);
+    findVisibleSpawnpoints();
   });
 
   map.addListener("movestart", function (event) {
@@ -140,10 +143,38 @@ function loadRawData() {
     dataType: 'json',
     cache: false,
     success: function (data) {
-      pokeData = data;
-      $.each(data.spawnpoints, processSpawnpoints);
+      rawData = data;
+      findVisibleSpawnpoints();
     }
   })
+}
+
+function findVisibleSpawnpoints()
+{
+
+  $.each(mapData.spawnpoints, function (i, item) {
+    if (item.marker)
+    {
+      item.marker.setMap(null);
+    }
+  });
+
+  mapData.spawnpoints = {};
+
+  $.each(rawData.spawnpoints, function (i, item) {
+    var id = item.spawnpoint_id;
+    var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
+    var distance = getPointDistance(circleCenter, marker.position);
+
+    if (distance > 500) {
+      // ignore
+    }
+    else {
+      mapData.spawnpoints[id] = item;
+      item.marker = setupSpawnpointMarker(item);
+    }
+
+  });
 }
 
 function processSpawnpoints(i, item) {
@@ -226,28 +257,28 @@ function setupSpawnpointMarker(item)
 
   var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
   var distance = getPointDistance(circleCenter, marker.position);
-  var color = '#666';
+  var color = 'hsla(0,0%,0%,0.4)';
   var show = false;
-  var borderOpacity = 0.5;
+  var borderOpacity = 0.1;
 
   var m = new google.maps.Circle({
     map: distance > 500 ? null : map,
     center: circleCenter,
-    radius: 4, // metres
+    radius: 0, // metres
     fillColor: color,
-    fillOpacity: 0.5,
+    fillOpacity: 0.3,
     strokeWeight: 1,
     strokeOpacity: borderOpacity,
     label: item["spawnpoint_id"]
   });
 
-  //m.infoWindow = new google.maps.InfoWindow({
-  //  content: spawnpointLabel(item),
-  //  disableAutoPan: true,
-  //  position: circleCenter
-  //});
+  m.infoWindow = new google.maps.InfoWindow({
+    content: spawnpointLabel(item),
+    disableAutoPan: true,
+    position: circleCenter
+  });
 
-  //addListeners(m);
+  addListeners(m);
 
   return m
 }
