@@ -189,7 +189,7 @@ function findVisibleSpawnpoints()
           if (mapData.spawnpoints[id].time != item["time"]) {
             mapData.spawnpoints[id].alttime = item["time"];
 
-            mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
+            // mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
           }
         }
         else {
