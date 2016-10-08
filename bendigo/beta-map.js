@@ -283,13 +283,13 @@ function setupSpawnpointMarker(item)
     label: item["spawnpoint_id"]
   });
 
-  m.infoWindow = new google.maps.InfoWindow({
-    content: spawnpointLabel(item),
-    disableAutoPan: true,
-    position: circleCenter
-  });
+  //m.infoWindow = new google.maps.InfoWindow({
+  //  content: spawnpointLabel(item),
+  //  disableAutoPan: true,
+  //  position: circleCenter
+  //});
 
-  addListeners(m);
+  //addListeners(m);
 
   return m
 }
