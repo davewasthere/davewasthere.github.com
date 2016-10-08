@@ -154,22 +154,8 @@ function loadRawData() {
 function findVisibleSpawnpoints()
 {
 
-  $.each(mapData.spawnpoints, function (i, item) {
-
-    var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
-    var distance = getPointDistance(circleCenter, marker.position);
-    if (distance > 500) {
-      if (item.marker) {
-        item.marker.setMap(null);
-      }
-    }
-
-
-  });
-
-  mapData.spawnpoints = {};
-
   $.each(rawData.spawnpoints, function (i, item) {
+
     var id = item.spawnpoint_id;
     var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
     var distance = getPointDistance(circleCenter, marker.position);
@@ -179,27 +165,43 @@ function findVisibleSpawnpoints()
     }
     else {
 
-      if (item.marker)
-      {
-        // ignore
-      }
-      else
-      {
-        if (id in mapData.spawnpoints) {
-          if (mapData.spawnpoints[id].time != item["time"]) {
-            mapData.spawnpoints[id].alttime = item["time"];
+      if (id in mapData.spawnpoints) {
+        if (mapData.spawnpoints[id].time != item["time"]) {
+          mapData.spawnpoints[id].alttime = item["time"];
 
-            // mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
-          }
-        }
-        else {
-          mapData.spawnpoints[id] = item;
-          item.marker = setupSpawnpointMarker(item);
+            mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
         }
       }
+      else {
+        mapData.spawnpoints[id] = item;
+        item.marker = setupSpawnpointMarker(item);
+      }
+
     }
 
   });
+
+  $.each(mapData.spawnpoints, function (i, item) {
+    var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
+    var distance = getPointDistance(circleCenter, marker.position);
+
+    if (distance > 500) {
+      if (item.marker) {
+        item.marker.setMap(null);
+        delete mapData.spawnpoints["spawnpoint_id"];
+      }
+    }
+    else {
+      if (item.marker) {
+        item.marker.setMap(map);
+      }
+      else {
+        console.log(id + ' marker not found');
+      }
+    }
+  });
+
+
 }
 
 function processSpawnpoints(i, item) {
@@ -233,8 +235,8 @@ function processSpawnpoints(i, item) {
         borderOpacity = 0.1;
 
         if (item.alttime) {
-          var color = getColorBySpawnTime(item['alttime']);
-          var radius = getRadiusBySpawnTime(item['alttime']);
+          var color = getColorBySpawnTime(item.alttime);
+          var radius = getRadiusBySpawnTime(item.alttime);
 
           if (radius > 2 && radius < 17) {
             if (radius > 15) {
@@ -279,17 +281,16 @@ function setupSpawnpointMarker(item)
     fillColor: color,
     fillOpacity: 0.3,
     strokeWeight: 1,
-    strokeOpacity: borderOpacity,
-    label: item["spawnpoint_id"]
+    strokeOpacity: borderOpacity
   });
 
-  //m.infoWindow = new google.maps.InfoWindow({
-  //  content: spawnpointLabel(item),
-  //  disableAutoPan: true,
-  //  position: circleCenter
-  //});
+  m.infoWindow = new google.maps.InfoWindow({
+    content: spawnpointLabel(item),
+    disableAutoPan: true,
+    position: circleCenter
+  });
 
-  //addListeners(m);
+  addListeners(m);
 
   return m
 }
