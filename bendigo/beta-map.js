@@ -122,6 +122,8 @@ function initMap() {
     clickable: false
   });
 
+  myLocationButton();
+
   loadRawData();
 }
 
@@ -153,10 +155,16 @@ function findVisibleSpawnpoints()
 {
 
   $.each(mapData.spawnpoints, function (i, item) {
-    if (item.marker)
-    {
-      item.marker.setMap(null);
+
+    var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
+    var distance = getPointDistance(circleCenter, marker.position);
+    if (distance > 500) {
+      if (item.marker) {
+        item.marker.setMap(null);
+      }
     }
+
+
   });
 
   mapData.spawnpoints = {};
@@ -170,8 +178,25 @@ function findVisibleSpawnpoints()
       // ignore
     }
     else {
-      mapData.spawnpoints[id] = item;
-      item.marker = setupSpawnpointMarker(item);
+
+      if (item.marker)
+      {
+        // ignore
+      }
+      else
+      {
+        if (id in mapData.spawnpoints) {
+          if (mapData.spawnpoints[id].time != item["time"]) {
+            mapData.spawnpoints[id].alttime = item["time"];
+
+            mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
+          }
+        }
+        else {
+          mapData.spawnpoints[id] = item;
+          item.marker = setupSpawnpointMarker(item);
+        }
+      }
     }
 
   });
@@ -347,7 +372,12 @@ function updateTime()
 
 function autoTrack()
 {
+  $('#current-location').css('background-position', '0px 0px');
+
   if (autoTrackEnabled) {
+
+    $('#current-location').css('background-position', '-144px 0px');
+
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function (position) {
         var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
@@ -363,10 +393,13 @@ function autoTrack()
         scan.setCenter(latlng);
         window.location.hash = (latlng.lat() + "," + latlng.lng());
 
+        findVisibleSpawnpoints();
+
       })
     } else {
-      clearInterval(animationInterval);
-      currentLocation.style.backgroundPosition = '0px 0px';
+
+      $('#current-location').css('background-position', '0px 0px');
+
     }
   }
 }
@@ -422,3 +455,71 @@ function formatSpawnTime(seconds) {
   return ('0' + Math.floor(((seconds + 3600) % 3600) / 60)).substr(-2) + ':' + ('0' + seconds % 60).substr(-2)
 }
 
+
+
+function myLocationButton() {
+  var locationContainer = document.createElement('div');
+
+  var locationButton = document.createElement('button');
+  locationButton.style.backgroundColor = '#fff';
+  locationButton.style.border = 'none';
+  locationButton.style.outline = 'none';
+  locationButton.style.width = '28px';
+  locationButton.style.height = '28px';
+  locationButton.style.borderRadius = '2px';
+  locationButton.style.boxShadow = '0 1px 4px rgba(0,0,0,0.3)';
+  locationButton.style.cursor = 'pointer';
+  locationButton.style.marginRight = '10px';
+  locationButton.style.padding = '0px';
+  locationButton.title = 'Your Location';
+  locationContainer.appendChild(locationButton);
+
+  var locationIcon = document.createElement('div');
+  locationIcon.style.margin = '5px';
+  locationIcon.style.width = '18px';
+  locationIcon.style.height = '18px';
+  locationIcon.style.backgroundImage = 'url(mylocation-sprite-1x.png)';
+  locationIcon.style.backgroundSize = '180px 18px';
+  locationIcon.style.backgroundPosition = '0px 0px';
+  locationIcon.style.backgroundRepeat = 'no-repeat';
+  locationIcon.id = 'current-location';
+  locationButton.appendChild(locationIcon);
+
+  locationButton.addEventListener('click', function () {
+    autoTrackEnabled = !autoTrackEnabled;
+    autoTrack();
+
+    var parsedHash = parseHash(window.location.hash);
+    var startPosition = new google.maps.LatLng(parsedHash[0], parsedHash[1]);
+
+    marker.setMap(null);
+
+    if (autoTrackEnabled)
+    {
+      marker = new google.maps.Marker({
+        map: map,
+        position: startPosition,
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillOpacity: 1,
+          fillColor: '#1c8af6',
+          scale: 6,
+          strokeColor: '#1c8af6',
+          strokeWeight: 8,
+          strokeOpacity: 0.3
+        }
+      })
+    }
+    else
+    {
+      marker = new google.maps.Marker({
+        position: startPosition,
+        map: map
+      });
+    }
+
+  })
+
+  locationContainer.index = 1;
+  map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(locationContainer);
+}
