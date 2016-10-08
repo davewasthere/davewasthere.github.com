@@ -211,12 +211,11 @@ function processSpawnpoints(i, item) {
     var circleCenter = new google.maps.LatLng(item['latitude'], item['longitude']);
     var distance = getPointDistance(circleCenter, marker.position);
 
-    if (id in mapData.spawnpoints) {
-
-      if (mapData.spawnpoints[id].time != item["time"]) {
-        mapData.spawnpoints[id].alttime = item["time"];
-        //mapData.spawnpoints[id].marker.infoWindow.setContent(spawnpointLabel(mapData.spawnpoints[id]));
-      }
+    if (distance > 500) {
+      item.marker.setMap(null);
+    }
+    else {
+      item.marker.setMap(map);
 
       var color = getColorBySpawnTime(item['time']);
       var radius = getRadiusBySpawnTime(item['time']);
@@ -251,29 +250,16 @@ function processSpawnpoints(i, item) {
       }
 
 
-      // console.debug(minutes);
-
       mapData.spawnpoints[id].marker.setOptions({
         fillColor: color,
-        radius: radius + 2,
+        radius: radius / 2 + 4,
         strokeOpacity: borderOpacity
       });
 
-
-
-      if (distance > 500) {
-        mapData.spawnpoints[id].marker.setMap(null);
-      }
-      else {
-        mapData.spawnpoints[id].marker.setMap(map);
-      }
-
       mapData.spawnpoints[id].marker.fillColor = getColorBySpawnTime(item["time"]);
 
-    } else { // add marker to map and item to dict
-      item.marker = setupSpawnpointMarker(item);
-      mapData.spawnpoints[id] = item;
     }
+
   }
 }
 
