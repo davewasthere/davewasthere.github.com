@@ -140,7 +140,7 @@ function parseHash(hash) {
 
 function loadRawData() {
   return $.ajax({
-    url: 'v2.json',
+    url: 'pokev2.json',
     type: 'GET',
     dataType: 'json',
     cache: false,
