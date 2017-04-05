@@ -7,7 +7,7 @@
   <meta name="description" content="First world problems"> 
   <meta name="author" content="Davewasthere"> 
 
-  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
   <style type="text/css">
   
@@ -21,7 +21,7 @@
 #container
 {
     min-height: 100%;
-    background: #fff url(http://i.imgur.com/QNTle.jpg) no-repeat bottom right;
+    background: #fff url(https://i.imgur.com/QNTle.jpg) no-repeat bottom right;
 }
 
 #main
@@ -83,7 +83,7 @@
     var after = '';
 
     $(function () {
-        $.getJSON('http://www.reddit.com/r/firstworldproblems.json?limit=10&jsonp=?', null, loadPosts);
+        $.getJSON('https://www.reddit.com/r/firstworldproblems.json?limit=10&jsonp=?', null, loadPosts);
         setTimeout(showNextPost, 1 * 8000);
     });
 
@@ -108,7 +108,7 @@
         var length = $('#problems > div').length;
 
         if (index > length - 4) {
-            $.getJSON('http://www.reddit.com/r/firstworldproblems.json?limit=10&after=' +  after + '&jsonp=?', null, loadPosts);
+            $.getJSON('https://www.reddit.com/r/firstworldproblems.json?limit=10&after=' +  after + '&jsonp=?', null, loadPosts);
         }
 
         if (index < length - 1) {
